@@ -6,7 +6,14 @@
   "orientation": "portrait",
   "background_color": "#fff",
   "theme_color": "#ac1418",
-  "meta_image": "/assets/meta.jpg",
+  "meta":{
+    "description": "16 settembre 2017 - Napoli",
+    "twitter": {
+      "creator": "pyconit",
+      "site": "python_pizza"
+    },
+    "image": "/assets/meta.jpg"
+  },
   "icons": [{
     "src": "/assets/icons/android-chrome-192x192.png",
     "type": "image/png",
