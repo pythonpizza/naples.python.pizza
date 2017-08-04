@@ -19,3 +19,11 @@
 	font-size: 1.2rem;
 	text-align: center;
 }
+
+.actions {
+	margin-top: 1em;
+}
+
+.actions > * {
+	margin: 0 0.5em;
+}

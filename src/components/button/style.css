@@ -1,0 +1,23 @@
+.button {
+	border: none;
+
+	background: white;
+	text-transform: uppercase;
+	padding: 1em 2em;
+
+	color: #ef412f;
+
+	font-family: inherit;
+	font-weight: bold;
+
+	cursor: pointer;
+	display: inline-block;
+
+	text-decoration: none;
+}
+
+.button:focus,
+.button:hover {
+	background: black;
+	color: white;
+}
