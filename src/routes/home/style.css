@@ -1,0 +1,21 @@
+.home {
+	min-height: 100%;
+	width: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.information {
+	color: white;
+}
+
+.information p {
+	font-family: 'Zilla Slab Highlight', cursive;
+	margin: 0;
+	line-height: 1.2;
+	font-size: 1.2rem;
+	text-align: center;
+}
