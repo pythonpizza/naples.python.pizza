@@ -10,7 +10,7 @@ const getMapURL = width => {
 
 	const size = `${width}x${height}`;
 
-	const url = `https://api.mapbox.com/styles/v1/splact/cj5zeldcb0o822rl0lx9efc8r/static/14.242626,40.831764,11.37,0.00,0.00/${size}@2x?access_token=pk.eyJ1IjoicGF0cmljazkxIiwiYSI6IjQxNGY5Y2M4ZDAxOTk1ZjlmMGIwYjAzOGUxNDkzNDgwIn0.h_QXhiuqxp2n0Oby13iWLg`;
+	const url = `https://api.mapbox.com/styles/v1/patrick91/cj5wzqtlm7w5p2so2kj1ifp6z/static/14.242626,40.831764,11.37,0.00,0.00/${size}@2x?access_token=pk.eyJ1IjoicGF0cmljazkxIiwiYSI6IjQxNGY5Y2M4ZDAxOTk1ZjlmMGIwYjAzOGUxNDkzNDgwIn0.h_QXhiuqxp2n0Oby13iWLg`;
 
 	return encodeURI(url);
 };
