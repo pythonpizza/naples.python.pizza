@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Zilla+Slab|Zilla+Slab+Highlight');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:400,700|Zilla+Slab+Highlight');
 
 html, body {
 	height: 100%;
@@ -9,6 +9,14 @@ html, body {
 	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
 }
 
 * {

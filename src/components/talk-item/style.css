@@ -1,3 +1,60 @@
-.list {
+.item {
+    margin-bottom: 2em;
+}
 
+.header {
+	 display: flex;
+}
+
+.time {
+}
+
+.title {
+    font-size: 2rem;
+	font-weight: bold;
+
+	text-transform: uppercase;
+
+	color: #ef412f;
+
+	margin-left: -20px;
+	position: relative;
+}
+
+.description {
+}
+
+.avatar {
+	position: relative;
+	top: -20px;
+	width: 100px;
+	height: 100px;
+
+	flex: 0 0 100px;
+}
+
+.avatar::before {
+	content: '';
+	display: block;
+	width: 80px;
+	height: 80px;
+
+	border-radius: 50%;
+
+	position: absolute;
+
+	background-color: #ef412f;
+
+	left: -10px;
+	bottom: -10px;
+}
+
+.avatar img {
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+
+	border-radius: 20px / 10px;
+	transform: rotate(-3deg);
 }
