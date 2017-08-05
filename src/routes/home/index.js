@@ -7,6 +7,7 @@ import Hero from '../../components/hero';
 import Wrapper from '../../components/wrapper';
 import Heading from '../../components/heading';
 import Paragraph from '../../components/paragraph';
+import TalkList from '../../components/talk-list';
 import { ButtonLink } from '../../components/button';
 
 export default class Home extends Component {
@@ -49,6 +50,10 @@ export default class Home extends Component {
 						sit infantia caelum. Legis gratia virtus culpa vitae sit cogito
 						minim impera lege infantia impera.
 					</Paragraph>
+
+					<Heading>Programma</Heading>
+
+					<TalkList />
 				</Wrapper>
 			</div>
 		);
