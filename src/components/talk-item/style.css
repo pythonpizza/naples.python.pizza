@@ -1,16 +1,18 @@
 .item {
-    margin-bottom: 2em;
+	margin-bottom: 3em;
 }
 
 .header {
-	 display: flex;
+	display: flex;
 }
 
 .time {
+	font-weight: bold;
+	margin-bottom: 2em;
 }
 
 .title {
-    font-size: 2rem;
+	font-size: 2rem;
 	font-weight: bold;
 
 	text-transform: uppercase;
@@ -19,9 +21,12 @@
 
 	margin-left: -20px;
 	position: relative;
+	text-shadow: 0 0 3px white;
 }
 
-.description {
+.author {
+	font-weight: bold;
+	margin: 0.1em 0 0 0.5em;
 }
 
 .avatar {

@@ -4,14 +4,17 @@ import style from './style';
 
 const TalkItem = () =>
 	<li class={style.item}>
+		<div class={style.time}>18.30</div>
 		<div>
-			<div class={style.time}>18.30</div>
 			<div class={style.header}>
 				<div class={style.avatar}>
 					<img src="https://pbs.twimg.com/profile_images/3760396480/667e792df246fa1d455c76faff615f30_400x400.jpeg" />
 				</div>
-				<div class={style.title}>
-					Tensorflow per OCR: da zero allo stato dell'arte
+				<div>
+					<div class={style.title}>
+						Tensorflow per OCR: da zero allo stato dell'arte
+					</div>
+					<div class={style.author}>Vincenzo Santopietro</div>
 				</div>
 			</div>
 		</div>
