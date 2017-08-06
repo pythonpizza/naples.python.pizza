@@ -1,5 +1,5 @@
 .item {
-	margin-bottom: 3em;
+	margin: 3em 0;
 }
 
 .header {
@@ -26,7 +26,6 @@
 
 .author {
 	font-weight: bold;
-	margin: 0.1em 0 0 0.5em;
 }
 
 .avatar {
@@ -62,4 +61,28 @@
 
 	border-radius: 20px / 10px;
 	transform: rotate(-3deg);
+}
+
+@media (min-width: 600px) {
+	.item {
+		display: flex;
+	}
+
+	.time {
+		margin: 0 30px 0 0;
+		align-self: center;
+		flex: 0 0 80px;
+		font-weight: normal;
+		font-size: 3rem;
+	}
+}
+
+@media (min-width: 750px) {
+	.description {
+		margin-left: 80px;
+	}
+
+	.title {
+		font-size: 2.5rem;
+	}
 }
