@@ -8,6 +8,7 @@ import Wrapper from '../../components/wrapper';
 import Heading from '../../components/heading';
 import Paragraph from '../../components/paragraph';
 import TalkList from '../../components/talk-list';
+import Partners from '../../components/partners';
 import { ButtonLink } from '../../components/button';
 
 export default class Home extends Component {
@@ -54,6 +55,10 @@ export default class Home extends Component {
 					<Heading>Programma</Heading>
 
 					<TalkList />
+
+					<Heading>Sponsor</Heading>
+
+					<Partners />
 				</Wrapper>
 			</div>
 		);
