@@ -84,5 +84,6 @@
 
 	.title {
 		font-size: 2.5rem;
+		max-width: 500px;
 	}
 }

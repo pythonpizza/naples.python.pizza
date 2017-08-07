@@ -9,12 +9,16 @@
 }
 
 .item {
-	width: 30%;
+	--padding: 2%;
+	--per-row: 2;
+	--width: calc(100% / var(--per-row) - var(--padding) / (var(--per-row) - 1));
+	--margin-bottom: calc((100% - (var(--width) * var(--per-row))) / (var(--per-row) - 1));
+
+	border: 1px solid black;
+
 	position: relative;
-
-	border: 3px solid #ef412f;
-
-	margin-bottom: calc((100% - (30% * 3)) / 2);
+	width: var(--width);
+	margin-bottom: var(--margin-bottom);
 }
 
 .item::before {
@@ -49,4 +53,10 @@
 .item:hover img {
 	filter: none;
     opacity: 1;
+}
+
+@media (min-width: 700px) {
+	.item {
+		--per-row: 3;
+	}
 }
