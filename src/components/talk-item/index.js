@@ -2,14 +2,21 @@ import { h } from 'preact';
 
 import style from './style';
 
-const TalkItem = () =>
+const TalkItem = () => (
 	<li class={style.item}>
 		<div class={style.time}>18.30</div>
 		<div>
 			<div>
 				<div class={style.header}>
 					<div class={style.avatar}>
-						<img src="https://pbs.twimg.com/profile_images/3760396480/667e792df246fa1d455c76faff615f30_400x400.jpeg" />
+						<svg viewBox="0 0 261.95 261.95">
+							<image
+								clip-path="url(#avatar-mask)"
+								height="100%"
+								width="100%"
+								xlinkHref="https://pbs.twimg.com/profile_images/3760396480/667e792df246fa1d455c76faff615f30_400x400.jpeg"
+							/>
+						</svg>
 					</div>
 					<div>
 						<div class={style.title}>
@@ -27,6 +34,7 @@ const TalkItem = () =>
 				<div class={style.author}>— Vincenzo Santopietro</div>
 			</div>
 		</div>
-	</li>;
+	</li>
+);
 
 export default TalkItem;
