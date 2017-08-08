@@ -1,5 +1,9 @@
 .heading {
+	margin: 7em 0 1.6em;
+
 	font-family: 'Zilla Slab', cursive;
+	font-size: 1.8rem;
 	font-weight: bold;
-	color: #333;
+	text-transform: uppercase;
+	color: #CCC;
 }
