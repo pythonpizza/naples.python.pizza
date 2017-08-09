@@ -21,7 +21,7 @@
 
 	margin-left: -20px;
 	position: relative;
-	text-shadow: 0 0 3px white;
+	text-shadow: 0 1px 4px rgba(0,0,0,.15);
 }
 
 .author {
@@ -83,7 +83,6 @@
 	}
 
 	.title {
-		font-size: 2.5rem;
-		max-width: 500px;
+		font-size: 3.2rem;
 	}
 }
