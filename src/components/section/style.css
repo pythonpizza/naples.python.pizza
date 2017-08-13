@@ -10,3 +10,7 @@
 .header {
 	flex: 0 0 300px;
 }
+
+.content {
+	width: 100%;
+}
