@@ -5,6 +5,7 @@ import Logo from '../../components/logo';
 import MapBackground from '../../components/map-background';
 import Hero from '../../components/hero';
 import Wrapper from '../../components/wrapper';
+import Section from '../../components/section';
 import Heading from '../../components/heading';
 import Paragraph from '../../components/paragraph';
 import TalkList from '../../components/talk-list';
@@ -17,6 +18,7 @@ export default class Home extends Component {
 			<div class={style.home}>
 				<Hero>
 					<MapBackground />
+
 					<Logo />
 
 					<div class={style.information}>
@@ -41,9 +43,7 @@ export default class Home extends Component {
 					</div>
 				</Hero>
 
-				<Wrapper>
-					<Heading>Cos'è Python Pizza</Heading>
-
+				<Section title="Cos'è Python Pizza">
 					<Paragraph>
 						Induco paratus infantia ventum vitae, induco, eligo quis juvenis
 						elit induco sum. Sit virtus elit, neque minim commodi. Ora, ora
@@ -51,15 +51,15 @@ export default class Home extends Component {
 						sit infantia caelum. Legis gratia virtus culpa vitae sit cogito
 						minim impera lege infantia impera.
 					</Paragraph>
+				</Section>
 
-					<Heading>Programma</Heading>
-
+				<Section title="Programma">
 					<TalkList />
+				</Section>
 
-					<Heading>Sponsor</Heading>
-
+				<Section title="Sponsor">
 					<Partners />
-				</Wrapper>
+				</Section>
 			</div>
 		);
 	}
