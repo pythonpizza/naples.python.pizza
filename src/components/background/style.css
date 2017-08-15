@@ -1,0 +1,16 @@
+.picture {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+
+	background: #ef412f;
+}
+
+.picture img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}

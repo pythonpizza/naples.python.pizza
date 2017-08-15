@@ -1,0 +1,49 @@
+.information {
+	color: white;
+
+	display: flex;
+
+	justify-content: center;
+
+	flex-direction: column;
+}
+
+.information h1 {
+	font-family: 'Zilla Slab Highlight', serif;
+	margin: 0;
+	line-height: 1.2;
+	font-size: 3rem;
+	text-align: right;
+	font-weight: normal;
+	text-align: center;
+}
+
+.actions {
+	margin-top: 1em;
+	text-align: center;
+}
+
+.actions > * {
+	margin: 0 0 0 0.5em;
+}
+
+.logo {
+	margin: 50px auto;
+	width: 80%;
+	text-align: center;
+}
+
+@media (min-width: 600px) {
+	.information {
+		height: 100vh;
+	}
+
+	.information h1 {
+		font-size: 5rem;
+		text-align: right;
+	}
+
+	.actions {
+		text-align: right;
+	}
+}

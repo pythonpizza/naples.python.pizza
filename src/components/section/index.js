@@ -1,15 +1,19 @@
 import { h } from 'preact';
 
+import cx from 'classnames';
+
 import Heading from '../heading';
 
 import style from './style';
 
-const Section = ({ title, children }) =>
-	<section class={style.section}>
+const Section = ({ title, header, children, fullscreen }) =>
+	<section class={cx(style.section, { [style['is-fullscreen']]: fullscreen })}>
 		<header class={style.header}>
-			<Heading>
-				{title}
-			</Heading>
+			{title &&
+				<Heading>
+					{title}
+				</Heading>}
+			{header}
 		</header>
 
 		<div class={style.content}>
