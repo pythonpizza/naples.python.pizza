@@ -17,7 +17,7 @@ const Hero = ({ title, header, children }) =>
 	<Fullscreen>
 		<Background src="http://i.imgur.com/HZLm2Rj.jpg" />
 
-		<Section header={<SectionLogo />} fullscreen>
+		<Section className={style.section} header={<SectionLogo />} fullscreen>
 			<div class={style.information}>
 				<div>
 					<h1>Riot Studio, Napoli</h1>

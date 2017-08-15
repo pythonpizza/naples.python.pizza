@@ -6,8 +6,8 @@ import Heading from '../heading';
 
 import style from './style';
 
-const Section = ({ title, header, children, fullscreen }) =>
-	<section class={cx(style.section, { [style['is-fullscreen']]: fullscreen })}>
+const Section = ({ title, header, children, fullscreen, className }) =>
+	<section class={cx(style.section, { [style['is-fullscreen']]: fullscreen }, className )}>
 		<header class={style.header}>
 			{title &&
 				<Heading>
