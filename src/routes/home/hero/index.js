@@ -15,7 +15,11 @@ const SectionLogo = () =>
 
 const Hero = ({ title, header, children }) =>
 	<Fullscreen>
-		<Background src="http://i.imgur.com/HZLm2Rj.jpg" />
+		<Background
+			filename="hero"
+			defaultSize={1103}
+			sizes={[190, 769, 1103, 1374, 1615, 1830, 2033, 2222, 2406, 2581, 2749, 2914, 3070, 3234, 3386, 3530, 3676, 3838, 3835, 3840]}
+		/>
 
 		<Section header={<SectionLogo />} fullscreen>
 			<div class={style.information}>
