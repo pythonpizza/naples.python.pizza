@@ -31,19 +31,20 @@
 }
 
 .actions > * {
-	margin: 0 0 0 0.5em;
+	margin: 0.25em;
 }
 
 .logo {
-	margin: 0 auto 50px;
-	width: 80%;
+	margin: 0 auto;
 	text-align: center;
 }
 
 @media (min-width: 600px) {
 	.information {
-		height: 100vh;
-	}
+        position: absolute;
+        right: 60px;
+        bottom: 40px;
+    }
 
 	.information h1 {
 		font-size: 5rem;
