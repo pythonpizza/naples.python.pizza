@@ -13,7 +13,7 @@ const TalkItem = ({ talk }) =>
 								clip-path="url(#avatar-mask)"
 								height="100%"
 								width="100%"
-								xlinkHref="talk.author.avatar"
+								xlinkHref={talk.author.avatar}
 							/>
 						</svg>
 					</div>
