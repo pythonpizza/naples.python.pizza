@@ -17,8 +17,8 @@ const Hero = ({ title, header, children }) =>
 	<Fullscreen>
 		<Background
 			filename="hero"
-			defaultSize={1397}
-			sizes={[200, 775, 1111, 1397, 1633, 1842, 2042, 2245, 2424, 2599, 2766, 2934, 3092, 3249, 3403, 3557, 3702, 3834, 3840]}
+			defaultSize={1103}
+			sizes={[190, 769, 1103, 1374, 1615, 1830, 2033, 2222, 2406, 2581, 2749, 2914, 3070, 3234, 3386, 3530, 3676, 3838, 3835, 3840]}
 		/>
 
 		<Section header={<SectionLogo />} fullscreen>
