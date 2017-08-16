@@ -18,24 +18,30 @@
 	text-align: center;
 }
 
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .actions {
 	margin-top: 1em;
 	text-align: center;
 }
 
 .actions > * {
-	margin: 0 0 0 0.5em;
+	margin: 0.25em;
 }
 
 .logo {
-	margin: 50px auto;
-	width: 80%;
+	margin: 0 auto;
 	text-align: center;
 }
 
 @media (min-width: 600px) {
-	.information {
-		height: 100vh;
+	.section {
+		flex-direction: row;
 	}
 
 	.information h1 {

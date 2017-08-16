@@ -13,6 +13,10 @@
 	min-height: 100vh;
 }
 
+.no-margin .header {
+    flex: 0 0 auto;
+}
+
 @media (min-width: 600px) {
 	.section {
 		display: flex;

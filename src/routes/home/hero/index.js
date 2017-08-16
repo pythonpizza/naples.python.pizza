@@ -21,7 +21,7 @@ const Hero = ({ title, header, children }) =>
 			sizes={[190, 769, 1103, 1374, 1615, 1830, 2033, 2222, 2406, 2581, 2749, 2914, 3070, 3234, 3386, 3530, 3676, 3838, 3835, 3840]}
 		/>
 
-		<Section header={<SectionLogo />} fullscreen>
+		<Section className={style.section} header={<SectionLogo />} fullscreen noMargin>
 			<div class={style.information}>
 				<div>
 					<h1>Riot Studio, Napoli</h1>
