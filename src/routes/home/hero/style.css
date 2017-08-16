@@ -26,8 +26,8 @@
 }
 
 .actions {
-	margin-top: 1em;
 	text-align: center;
+	margin: 1em -.25em 0;
 }
 
 .actions > * {
