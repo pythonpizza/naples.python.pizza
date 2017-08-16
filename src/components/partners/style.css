@@ -14,8 +14,6 @@
 	--width: calc(100% / var(--per-row) - var(--padding) / (var(--per-row) - 1));
 	--margin-bottom: calc((100% - (var(--width) * var(--per-row))) / (var(--per-row) - 1));
 
-	border: 1px solid black;
-
 	position: relative;
 	width: var(--width);
 	margin-bottom: var(--margin-bottom);
