@@ -40,11 +40,9 @@
 }
 
 @media (min-width: 600px) {
-	.information {
-        position: absolute;
-        right: 60px;
-        bottom: 40px;
-    }
+	.section {
+		flex-direction: row;
+	}
 
 	.information h1 {
 		font-size: 5rem;
