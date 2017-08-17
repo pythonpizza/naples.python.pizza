@@ -1,21 +1,21 @@
 .information {
-	color: white;
+    color: white;
 
-	display: flex;
+    display: flex;
 
-	justify-content: center;
+    justify-content: center;
 
-	flex-direction: column;
+    flex-direction: column;
 }
 
 .information h1 {
-	font-family: 'Zilla Slab Highlight', serif;
-	margin: 0;
-	line-height: 1.2;
-	font-size: 3rem;
-	text-align: right;
-	font-weight: normal;
-	text-align: center;
+    font-family: 'Zilla Slab Highlight', serif;
+    margin: 0;
+    line-height: 1.2;
+    font-size: 3rem;
+    text-align: right;
+    font-weight: normal;
+    text-align: center;
 }
 
 .section {
@@ -26,30 +26,30 @@
 }
 
 .actions {
-	text-align: center;
-	margin: 1em -.25em 0;
+    text-align: center;
+    margin: 1em -.25em 0;
 }
 
 .actions > * {
-	margin: 0.25em;
+    margin: 0.25em;
 }
 
 .logo {
-	margin: 0 auto;
-	text-align: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
 @media (min-width: 600px) {
-	.section {
-		flex-direction: row;
-	}
+    .section {
+        flex-direction: row;
+    }
 
-	.information h1 {
-		font-size: 5rem;
-		text-align: right;
-	}
+    .information h1 {
+        font-size: 5rem;
+        text-align: right;
+    }
 
-	.actions {
-		text-align: right;
-	}
+    .actions {
+        text-align: right;
+    }
 }

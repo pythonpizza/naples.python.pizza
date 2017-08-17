@@ -1,16 +1,16 @@
 .section {
-	width: 90%;
-	max-width: 960px;
+    width: 90%;
+    max-width: 960px;
 
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 .content {
-	width: 100%;
+    width: 100%;
 }
 
 .is-fullscreen {
-	min-height: 100vh;
+    min-height: 100vh;
 }
 
 .no-margin .header {
@@ -18,11 +18,11 @@
 }
 
 @media (min-width: 600px) {
-	.section {
-		display: flex;
-	}
+    .section {
+        display: flex;
+    }
 
-	.header {
-		flex: 0 0 300px;
-	}
+    .header {
+        flex: 0 0 300px;
+    }
 }
