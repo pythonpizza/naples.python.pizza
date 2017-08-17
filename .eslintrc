@@ -2,6 +2,7 @@
     "extends": "eslint-config-synacor",
     "rules": {
         "indent": ["error", 4],
-        "react/jsx-wrap-multilines": ["error", { "arrow": false, "return": false, "declaration": false }]
+        "react/jsx-wrap-multilines": ["error", { "arrow": false, "return": false, "declaration": false }],
+        "react/jsx-indent-props": ["error", 4]
     }
 }
