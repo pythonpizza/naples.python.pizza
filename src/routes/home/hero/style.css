@@ -35,13 +35,17 @@
 }
 
 .logo {
-	margin: 0 auto;
+	margin: 0 auto 1em;
 	text-align: center;
 }
 
 @media (min-width: 781px) {
 	.section {
 		flex-direction: row;
+	}
+
+	.logo {
+		margin: 0 auto;
 	}
 
 	.information h1 {
