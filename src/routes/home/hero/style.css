@@ -35,7 +35,7 @@
 }
 
 .logo {
-	margin: 0 auto;
+	margin: 0 auto 5rem;
 	text-align: center;
 }
 
@@ -51,5 +51,9 @@
 
 	.actions {
 		text-align: right;
+	}
+
+	.logo {
+		margin-bottom: 0;
 	}
 }
