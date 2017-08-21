@@ -1,0 +1,59 @@
+.information {
+	color: white;
+
+	display: flex;
+
+	justify-content: center;
+
+	flex-direction: column;
+}
+
+.information h1 {
+	font-family: 'Zilla Slab Highlight', serif;
+	margin: 0;
+	line-height: 1.2;
+	font-size: 3rem;
+	text-align: right;
+	font-weight: normal;
+	text-align: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.actions {
+	text-align: center;
+	margin: 1em -.25em 0;
+}
+
+.actions > * {
+	margin: 0.25em;
+}
+
+.logo {
+	margin: 0 auto 5rem;
+	text-align: center;
+}
+
+@media (min-width: 600px) {
+	.section {
+		flex-direction: row;
+	}
+
+	.information h1 {
+		font-size: 5rem;
+		text-align: right;
+	}
+
+	.actions {
+		text-align: right;
+	}
+
+	.logo {
+		margin-bottom: 0;
+	}
+}
