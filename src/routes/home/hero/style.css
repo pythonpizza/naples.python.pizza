@@ -33,6 +33,7 @@
 
 .actions > * {
 	margin: 0.25em;
+	width: 60%;
 }
 
 .logo {
@@ -56,5 +57,9 @@
 
 	.actions {
 		text-align: right;
+	}
+
+	.actions > * {
+		width: auto;
 	}
 }
