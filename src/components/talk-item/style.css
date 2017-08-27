@@ -1,5 +1,5 @@
 .item {
-	margin: 3em 0;
+	margin: 1em 0 5em;
 }
 
 .header {
@@ -59,7 +59,7 @@
 	object-fit: cover;
 
 	border-radius: 20px / 10px;
-	
+
 	animation: continuous-float infinite 8s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate;
 }
 

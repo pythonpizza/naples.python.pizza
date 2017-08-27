@@ -2,11 +2,12 @@
 	color: white;
 
 	display: flex;
-
 	justify-content: center;
-
 	flex-direction: column;
+
+	margin-top: 2em;
 }
+
 
 .information h1 {
 	font-family: 'Zilla Slab Highlight', serif;
@@ -42,6 +43,10 @@
 @media (min-width: 781px) {
 	.section {
 		flex-direction: row;
+	}
+
+	.information {
+		margin-top: 0px;
 	}
 
 	.information h1 {
