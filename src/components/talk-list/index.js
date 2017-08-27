@@ -5,16 +5,34 @@ import style from './style';
 
 const talks = [
 	{
-		title: "Tensorflow per OCR: da zero allo stato dell'arte",
-		description: `Proin ac volutpat tortor. Integer at tortor ex. Aenean pretium quis
-		ipsum vel pellentesque. Sed ullamcorper, libero ut auctor varius, lectus
-		quam semper felis, vel consectetur leo odio id ante. In sit amet augue
-		eu lorem mollis maximus. Pellentesque et risus orci. Lorem ipsum dolor
-		sit amet, consectetur adipiscing elit. Vivamus id placerat elit.`,
+		title: 'Introduzione a Python 🐍',
+		description: `Descrizione in arrivo.`,
+		author: {
+			name: 'Rino Ragucci',
+			avatar: require('./avatars/rino.jpg')
+		}
+	},
+	{
+		title: 'Pizza as a Service 🍕',
+		description: `Quando la pizza incontra il cloud! Python al servizio di
+			Google Cloud Platform; introduzione a Google App Engine.`,
+		author: {
+			name: 'Fabrizio Lapiello',
+			avatar: require('./avatars/fabrizio.jpg')
+		}
+	},
+	{
+		title: "Tensorflow per OCR: da zero allo stato dell'arte 🖼",
+		description: `Ogni azienda che miri ad essere competitiva, ai giorni nostri,
+			non può fare a meno di tecniche di machine learning per i suoi prodotti.
+			Se fino ad ora hai letto parole come “machine learning”, “deep learning”
+			o “AI” e non ci hai capito un fico secco, cercherò chiarirti le idee
+			introducendo alcuni concetti teorici fondamentali e sviluppando una
+			semplice applicazione per l’optical character recognition (O.C.R.)
+			in Python con la libreria open-source TensorFlow.`,
 		author: {
 			name: 'Vincenzo Santopietro',
-			avatar:
-				'https://pbs.twimg.com/profile_images/3760396480/667e792df246fa1d455c76faff615f30_400x400.jpeg'
+			avatar: require('./avatars/vincenzo.jpg')
 		}
 	}
 ];
