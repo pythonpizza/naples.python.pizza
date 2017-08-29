@@ -2,18 +2,31 @@ import { h } from 'preact';
 
 import style from './style';
 
-const sponsors = [1, 2, 3];
+const sponsors = [
+	{
+		name: 'Python Software Foundation',
+		url: 'https://www.python.org/psf/',
+		image: require('../../assets/sponsors/psf.png')
+	},
+	{
+		name: 'Bit4id',
+		url: 'https://www.bit4id.com/',
+		image: require('../../assets/sponsors/bit4id.png')
+	}
+];
 
-const Item = () =>
+const Item = ({ name, image, url }) => (
 	<li class={style.item}>
-		<a href="" target="_blank">
-			<img src={require('../../assets/sponsors/bit4id.png')} />
+		<a href={url} target="_blank">
+			<img alt={name} src={image} />
 		</a>
-	</li>;
+	</li>
+);
 
-const Partners = ({ children }) =>
+const Partners = ({ children }) => (
 	<ul class={style.list}>
-		{sponsors.map(index => <Item key={index} />)}
-	</ul>;
+		{sponsors.map((sponsor, index) => <Item key={index} {...sponsor} />)}
+	</ul>
+);
 
 export default Partners;
