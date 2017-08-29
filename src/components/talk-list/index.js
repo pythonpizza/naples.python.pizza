@@ -6,11 +6,11 @@ import style from './style';
 const talks = [
 	{
 		title: 'Introduzione a Python 🐍',
-		description: `Molti ritengono che Python sia un ambiente di “coding”
-			in crescita e sia “cool”. Ciò è condivisibile? Saranno brevemente
-			presentate talune caratteristiche interessanti del linguaggio e i
-			principali domini applicativi di utilizzazione e il tutto sarà
-			accompagnato da esempi di codice.`,
+		description: `Python è un ambiente di coding in crescita e molti
+			ritengono che programmare in Python sia "cool". Perché? Saranno
+			brevemente presentati i principali domini applicativi di
+			utilizzazione (tra cui la data science) e talune caratteristiche
+			interessanti del linguaggio condite con qualche esempio di codice.`,
 		author: {
 			name: 'Rino Ragucci',
 			avatar: require('./avatars/rino.jpg')
