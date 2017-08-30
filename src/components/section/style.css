@@ -1,0 +1,28 @@
+.section {
+	width: 90%;
+	max-width: 960px;
+
+	margin: 0 auto;
+}
+
+.content {
+	width: 100%;
+}
+
+.is-fullscreen {
+	min-height: 100vh;
+}
+
+.no-margin .header {
+    flex: 0 0 auto;
+}
+
+@media (min-width: 600px) {
+	.section {
+		display: flex;
+	}
+
+	.header {
+		flex: 0 0 230px;
+	}
+}

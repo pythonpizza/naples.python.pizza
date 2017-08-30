@@ -1,0 +1,10 @@
+.wrapper {
+	width: 90%;
+	max-width: 960px;
+
+	margin: 0 auto;
+}
+
+.wrapper svg {
+	width: 0;
+}

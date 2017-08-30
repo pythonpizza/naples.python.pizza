@@ -1,0 +1,125 @@
+.item {
+	margin: 1em 0 5em;
+}
+
+.header {
+	display: flex;
+}
+
+.title {
+	font-size: 2rem;
+	font-weight: bold;
+
+	text-transform: uppercase;
+
+	color: #ef412f;
+
+	margin-left: -20px;
+	position: relative;
+	text-shadow: 0 1px 4px rgba(0,0,0,.15);
+}
+
+.author {
+	font-weight: bold;
+}
+
+.avatar {
+	position: relative;
+	top: -20px;
+	width: 100px;
+	height: 100px;
+
+	flex: 0 0 100px;
+
+	perspective: 80px;
+}
+
+.avatar::before {
+	content: '';
+	display: block;
+	width: 80px;
+	height: 80px;
+
+	border-radius: 50%;
+
+	position: absolute;
+
+	background-color: #ef412f;
+
+	left: -10px;
+	bottom: -10px;
+
+	animation: continuous-zoom infinite 7s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate both;
+}
+
+.avatar svg {
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+
+	border-radius: 20px / 10px;
+
+	animation: continuous-float infinite 8s cubic-bezier(0.445, 0.05, 0.55, 0.95) alternate;
+}
+
+.item:nth-child(3n + 1) .avatar::before { animation-duration: 7s; }
+.item:nth-child(3n + 2) .avatar::before { animation-duration: 5s; }
+.item:nth-child(3n + 3) .avatar::before { animation-duration: 9s; }
+.item:nth-child(3n + 1) .avatar svg { animation-name: continuous-float; }
+.item:nth-child(3n + 2) .avatar svg { animation-name: continuous-float-2; }
+.item:nth-child(3n + 3) .avatar svg { animation-name: continuous-float-3; }
+
+@keyframes continuous-zoom {
+	from { transform: scale(.9); }
+	to { transform: scale(1.05); }
+}
+@keyframes continuous-float {
+	0% {
+		transform: rotateX(-3deg) rotateY(2deg) rotateZ(0deg);
+	}
+	50% {
+		transform: rotateX(2deg) rotateY(-3deg) rotateZ(5deg);
+	}
+	100% {
+		transform: rotateX(3deg) rotateY(-4deg) rotateZ(-2deg);
+	}
+}
+@keyframes continuous-float-2 {
+	0% {
+		transform: rotateX(3deg) rotateY(-4deg) rotateZ(-2deg);
+	}
+	50% {
+		transform: rotateX(-3deg) rotateY(2deg) rotateZ(1deg);
+	}
+	100% {
+		transform: rotateX(0deg) rotateY(-1deg) rotateZ(4deg);
+	}
+}
+@keyframes continuous-float-3 {
+	0% {
+		transform: rotateX(3deg) rotateY(-4deg) rotateZ(2deg);
+	}
+	50% {
+		transform: rotateX(0deg) rotateY(0deg) rotateZ(-4deg);
+	}
+	100% {
+		transform: rotateX(4deg) rotateY(-3deg) rotateZ(1deg);
+	}
+}
+
+@media (min-width: 600px) {
+	.item {
+		display: flex;
+	}
+}
+
+@media (min-width: 750px) {
+	.description {
+		margin-left: 80px;
+	}
+
+	.title {
+		font-size: 3.2rem;
+	}
+}
