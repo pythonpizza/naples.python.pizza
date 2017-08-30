@@ -30,7 +30,15 @@ const Hero = ({ title, header, children }) => (
 		>
 			<div class={style.information}>
 				<div>
-					<h1>Riot Studio, Napoli</h1>
+					<h1>
+						<a
+							href="https://goo.gl/maps/9GYbaLRHrc32"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Riot Studio, Napoli
+						</a>
+					</h1>
 					<h1>16 Settembre 2017</h1>
 				</div>
 

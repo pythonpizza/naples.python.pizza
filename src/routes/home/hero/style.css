@@ -6,6 +6,8 @@
 	flex-direction: column;
 
 	margin-top: 2em;
+
+	text-align: center;
 }
 
 
@@ -17,6 +19,27 @@
 	text-align: right;
 	font-weight: normal;
 	text-align: center;
+	display: inline-block;
+}
+
+.information h1:first-child:hover {
+	color: black;
+	position: relative;
+}
+
+.information h1:first-child:hover::before {
+	position: absolute;
+	top: 4px;
+	bottom: 4px;
+	background: white;
+	width: 100%;
+	content: '';
+	display: block;
+	z-index: -1;
+}
+
+.information a {
+	color: inherit;
 }
 
 .section {
@@ -36,6 +59,10 @@
 	width: 60%;
 }
 
+.actions a {
+	color: black;
+}
+
 .logo {
 	margin: 0 auto;
 	text-align: center;
@@ -48,6 +75,7 @@
 
 	.information {
 		margin-top: 0px;
+		text-align: right;
 	}
 
 	.information h1 {
