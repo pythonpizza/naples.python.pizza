@@ -49,7 +49,7 @@ export default () => (
 						width: '100%',
 						height: 'auto'
 					}}
-					src="https://api.mapbox.com/styles/v1/mapbox/outdoors-v9/static/pin-s-p+285A98(14.2587399,40.8496048)/14.2587399,40.8485048,15,0,39/600x400@2x?access_token=pk.eyJ1IjoicGF0cmljazkxIiwiYSI6IjQxNGY5Y2M4ZDAxOTk1ZjlmMGIwYjAzOGUxNDkzNDgwIn0.h_QXhiuqxp2n0Oby13iWLg"
+					src="https://api.mapbox.com/styles/v1/mapbox/outdoors-v9/static/pin-s-p+f80c11(14.2587399,40.8496048)/14.2587399,40.8485048,15,0,39/600x400@2x?access_token=pk.eyJ1IjoicGF0cmljazkxIiwiYSI6IjQxNGY5Y2M4ZDAxOTk1ZjlmMGIwYjAzOGUxNDkzNDgwIn0.h_QXhiuqxp2n0Oby13iWLg"
 				/>
 			}
 			right={
