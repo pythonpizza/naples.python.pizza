@@ -1,10 +1,12 @@
-import { h, Component } from 'preact';
+import { h } from 'preact';
 import style from './style';
 
 import Section from '../../components/section';
 import Paragraph from '../../components/paragraph';
 import TalkList from '../../components/talk-list';
 import Partners from '../../components/partners';
+import TwoPane from '../../components/two-pane';
+import { ButtonLink } from '../../components/button';
 
 import Hero from './hero';
 
@@ -39,5 +41,34 @@ export default () => (
 		<Section title="Sponsor">
 			<Partners />
 		</Section>
+
+		<TwoPane
+			left={
+				<img
+					style={{
+						width: '100%',
+						height: 'auto'
+					}}
+					src="https://api.mapbox.com/styles/v1/mapbox/outdoors-v9/static/pin-s-p+285A98(14.2587399,40.8496048)/14.2587399,40.8485048,15,0,39/600x400@2x?access_token=pk.eyJ1IjoicGF0cmljazkxIiwiYSI6IjQxNGY5Y2M4ZDAxOTk1ZjlmMGIwYjAzOGUxNDkzNDgwIn0.h_QXhiuqxp2n0Oby13iWLg"
+				/>
+			}
+			right={
+				<div>
+					<h2>Riot Studio</h2>
+					<address>
+						Via San Biagio Dei Librai, 39, <br />80138 Napoli
+					</address>
+
+					<ButtonLink
+						style={{
+							marginTop: '1em'
+						}}
+						inverted
+					>
+						Registrati
+					</ButtonLink>
+				</div>
+			}
+		/>
 	</div>
 );
