@@ -38,7 +38,7 @@
 	z-index: -1;
 }
 
-.information h1:last-child {
+.information h1 + h1 {
     display: block;
 }
 
@@ -65,11 +65,10 @@
 
 .actions > * {
 	margin: 0.25em;
-	width: 60%;
 }
 
 .actions a {
-	color: black;
+	color: #cc0d2f;
 }
 
 .logo {
