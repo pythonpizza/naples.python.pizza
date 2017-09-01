@@ -28,7 +28,7 @@
 @media (min-width: 600px) {
 	.two-pane {
 		display: flex;
-		margin: 0;
+		margin: 2em 0 0;
 	}
 
 	.two-pane > div {
