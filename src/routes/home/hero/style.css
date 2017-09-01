@@ -38,6 +38,10 @@
 	z-index: -1;
 }
 
+.information h1:last-child {
+    display: block;
+}
+
 .information a {
 	color: inherit;
 }
