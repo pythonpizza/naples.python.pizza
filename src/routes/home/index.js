@@ -60,6 +60,7 @@ export default () => (
 					</address>
 
 					<ButtonLink
+						href="https://www.eventbrite.it/e/pythonpizza-tickets-36788948736"
 						style={{
 							marginTop: '1em'
 						}}
