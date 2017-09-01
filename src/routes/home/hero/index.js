@@ -40,6 +40,7 @@ const Hero = ({ title, header, children }) => (
 						</a>
 					</h1>
 					<h1>16 Settembre 2017</h1>
+					<h2>18:00 - 20:00</h2>
 				</div>
 
 				<div class={style.actions}>
