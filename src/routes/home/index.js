@@ -44,13 +44,15 @@ export default () => (
 
 		<TwoPane
 			left={
-				<img
-					style={{
-						width: '100%',
-						height: 'auto'
-					}}
-					src="https://api.mapbox.com/styles/v1/mapbox/outdoors-v9/static/pin-s-p+f80c11(14.2587399,40.8496048)/14.2587399,40.8485048,15,0,39/600x400@2x?access_token=pk.eyJ1IjoicGF0cmljazkxIiwiYSI6IjQxNGY5Y2M4ZDAxOTk1ZjlmMGIwYjAzOGUxNDkzNDgwIn0.h_QXhiuqxp2n0Oby13iWLg"
-				/>
+				<a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir//RIOT+STUDIO,+Via+San+Biagio+Dei+Librai,+39,+80138+Napoli+NA,+Italy/@40.8496088,14.2565512,17z/data=!4m15!1m6!3m5!1s0x133b0841a1a68edd:0x6e993126f4e817f1!2sRIOT+STUDIO!8m2!3d40.8496048!4d14.2587399!4m7!1m0!1m5!1m1!1s0x133b0841a1a68edd:0x6e993126f4e817f1!2m2!1d14.2587399!2d40.8496048">
+					<img
+						style={{
+							width: '100%',
+							height: 'auto'
+						}}
+						src="https://api.mapbox.com/styles/v1/mapbox/outdoors-v9/static/pin-s-p+f80c11(14.2587399,40.8496048)/14.2587399,40.8485048,15,0,39/600x400@2x?access_token=pk.eyJ1IjoicGF0cmljazkxIiwiYSI6IjQxNGY5Y2M4ZDAxOTk1ZjlmMGIwYjAzOGUxNDkzNDgwIn0.h_QXhiuqxp2n0Oby13iWLg"
+					/>
+				</a>
 			}
 			right={
 				<div>
