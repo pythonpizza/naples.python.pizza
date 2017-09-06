@@ -71,8 +71,8 @@
 .item:nth-child(3n + 3) .avatar svg { animation-name: continuous-float-3; }
 
 @keyframes continuous-zoom {
-	from { transform: scale(.9); }
-	to { transform: scale(1.05); }
+	from { transform: scale(.9) translateZ(-5000); }
+	to { transform: scale(1.05) translateZ(-5000); }
 }
 @keyframes continuous-float {
 	0% {
