@@ -55,6 +55,7 @@
 
 @media (min-width: 700px) {
 	.item {
-		--per-row: 3;
+		--per-row: 2;
+		--padding: 6%;
 	}
 }

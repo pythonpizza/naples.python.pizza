@@ -12,6 +12,16 @@ const sponsors = [
 		name: 'Bit4id',
 		url: 'https://www.bit4id.com/',
 		image: require('../../assets/sponsors/bit4id.png')
+	},
+	{
+		name: 'Roll Studio',
+		url: 'http://www.rollstudio.co.uk',
+		image: require('../../assets/sponsors/roll.png')
+	},
+	{
+		name: '012 Factory',
+		url: 'http://www.012factory.it/',
+		image: require('../../assets/sponsors/012.png')
 	}
 ];
 
