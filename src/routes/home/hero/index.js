@@ -22,15 +22,17 @@ const Hero = ({ title, header, children }) => (
 			sizes={[769, 1103, 1374, 1615, 2222]}
 		/>
 
+
 		<Section
 			className={style.section}
-			header={<SectionLogo />}
 			fullscreen
 			noMargin
 		>
+			<SectionLogo />
+
 			<div class={style.information}>
 				<div>
-					<h1>
+					{/* <h1>
 						<a
 							href="https://goo.gl/maps/9GYbaLRHrc32"
 							target="_blank"
@@ -38,21 +40,21 @@ const Hero = ({ title, header, children }) => (
 						>
 							Riot Studio, Napoli
 						</a>
-					</h1>
-					<h1>16 Settembre 2017</h1>
-					<h2>18:00 - 20:00</h2>
+					</h1> */}
+					<h1>15 Settembre 2018</h1>
+					<h2>9:30 - 18:00</h2>
 				</div>
 
 				<div class={style.actions}>
 					<ButtonLink
 						target="_blank"
-						href="https://www.eventbrite.it/e/pythonpizza-tickets-36788948736"
+						href="#"
 					>
 						Registrati
 					</ButtonLink>
 					<ButtonLink
 						target="_blank"
-						href="https://drive.google.com/file/d/0BzLKfHQcu_LwZWs0YlRDRWZXcW8/view?usp=sharing"
+						href="#"
 					>
 						Sponsorizza
 					</ButtonLink>

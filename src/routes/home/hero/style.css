@@ -16,7 +16,6 @@
 	margin: 0;
 	line-height: 1.2;
 	font-size: 3rem;
-	text-align: right;
 	font-weight: normal;
 	text-align: center;
 	display: inline-block;
@@ -83,21 +82,17 @@
 
 	.information {
 		margin-top: 0px;
-		text-align: right;
 	}
 
 	.information h1 {
 		font-size: 5rem;
-		text-align: right;
 	}
 
 	.information h2 {
-		text-align: right;
 		font-size: 1.6em;
 	}
 
 	.actions {
-		text-align: right;
 	}
 
 	.actions > * {
