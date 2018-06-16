@@ -4,7 +4,8 @@
     "main": "src/index.js",
     "license": "MIT",
     "scripts": {
-        "dev": "./node_modules/.bin/poi develop"
+        "dev": "./node_modules/.bin/poi develop",
+        "build": "./node_modules/.bin/poi build"
     },
     "eslintConfig": {
         "extends": "eslint-config-synacor"
