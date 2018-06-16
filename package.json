@@ -7,9 +7,6 @@
         "dev": "./node_modules/.bin/poi develop",
         "build": "./node_modules/.bin/poi build"
     },
-    "eslintConfig": {
-        "extends": "eslint-config-synacor"
-    },
     "devDependencies": {
         "@poi/plugin-typescript": "10.2.0",
         "@types/react": "16.3.18",
@@ -23,6 +20,7 @@
     "dependencies": {
         "@types/classnames": "2.2.4",
         "classnames": "^2.2.5",
+        "eslint-plugin-typescript": "0.12.0",
         "postcss-custom-media": "6.0.0",
         "postcss-nested": "3.0.0",
         "prettier": "^1.6.0",
@@ -31,6 +29,7 @@
         "react-dom": "16.4.1",
         "react-svg-inline": "2.1.1",
         "tslint": "5.10.0",
-        "typescript": "2.9.2"
+        "typescript": "2.9.2",
+        "typescript-eslint-parser": "16.0.0"
     }
 }
