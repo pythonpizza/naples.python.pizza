@@ -1,7 +1,13 @@
 .header {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     padding-top: 1rem;
+
+    @media (--tablet) {
+        flex-direction: row;
+    }
 
     &--logo {
         width: 10rem;
@@ -11,12 +17,23 @@
     &--links {
         display: flex;
         align-items: center;
+        margin-top: 1rem;
+
+        @media (--tablet) {
+            margin-top: 0;
+        }
 
         li {
             font-weight: 700;
 
             & + li {
                 margin-left: 2rem;
+            }
+
+            &:last-child a {
+                padding: 1rem 3rem;
+                border: 1px solid var(--black);
+                border-radius: 10rem;
             }
         }
     }

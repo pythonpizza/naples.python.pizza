@@ -15,7 +15,7 @@
 
     /* generic colors */
     --white: #ffffff;
-    --grey: #000000;
+    --black: #000000;
 
     @media (--mobile) {
         --grid-columns: 1fr 1fr;

@@ -12,7 +12,7 @@ export default class Header extends React.Component {
                 <SVGInline className="header--logo" svg={require('Assets/logo.svg')} />
                 <ul className="header--links">
                     <li>
-                        <a href="#">Cos'è python.pizza</a>
+                        <a href="#">About</a>
                     </li>
                     <li>
                         <a href="#">Speakers</a>
