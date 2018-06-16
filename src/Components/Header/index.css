@@ -1,12 +1,22 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
 
-    @media (--tablet) {
-        flex-direction: row;
+    width: 100%;
+    z-index: 1;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+
+        padding-top: 1rem;
+
+        @media (--tablet) {
+            flex-direction: row;
+        }
     }
 
     &--logo {
@@ -26,13 +36,17 @@
         li {
             font-weight: 700;
 
+            a {
+                color: var(--white);
+            }
+
             & + li {
                 margin-left: 2rem;
             }
 
             &:last-child a {
                 padding: 1rem 3rem;
-                border: 1px solid var(--black);
+                border: 1px solid var(--white);
                 border-radius: 10rem;
             }
         }
