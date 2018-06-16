@@ -7,7 +7,6 @@
 
     margin: 3rem 0;
 
-    > *:nth-child(0),
     > *:nth-child(2n + 1) {
         @media (--mobile) {
             margin-top: 3rem;
