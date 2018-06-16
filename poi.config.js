@@ -3,6 +3,7 @@ const path = require('path');
 const root = path.resolve(__dirname);
 
 module.exports = {
+    outDir: 'build/',
     plugins: [
         require('@poi/plugin-typescript')({
             vue: false,
