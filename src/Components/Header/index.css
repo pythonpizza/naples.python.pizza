@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+
+    &--logo {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    &--links {
+        display: flex;
+        align-items: center;
+
+        li {
+            font-weight: 700;
+
+            & + li {
+                margin-left: 2rem;
+            }
+        }
+    }
+}

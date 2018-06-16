@@ -1,0 +1,10 @@
+.images-showcase {
+    display: grid;
+    grid-template-columns: var(--grid-columns);
+    justify-items: center;
+
+    span {
+        width: 15rem;
+        height: 15rem;
+    }
+}

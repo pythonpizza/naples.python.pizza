@@ -1,29 +1,35 @@
 {
-  "name": "python.pizza",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "scripts": {
-    "start": "if-env NODE_ENV=production && yarn run -s serve || yarn run -s dev",
-    "build": "preact build --template template.html",
-    "serve": "preact build --template template.html && preact serve",
-    "dev": "preact watch --template template.html",
-    "test": "eslint src && preact test"
-  },
-  "eslintConfig": {
-    "extends": "eslint-config-synacor"
-  },
-  "devDependencies": {
-    "eslint": "^4.5.0",
-    "eslint-config-synacor": "^1.1.0",
-    "if-env": "^1.0.0",
-    "preact-cli": "^1.4.1"
-  },
-  "dependencies": {
-    "classnames": "^2.2.5",
-    "preact": "^8.2.5",
-    "preact-compat": "^3.17.0",
-    "preact-router": "^2.5.7",
-    "prettier": "^1.6.0"
-  }
+    "name": "python.pizza",
+    "version": "2018",
+    "main": "src/index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "./node_modules/.bin/poi develop"
+    },
+    "eslintConfig": {
+        "extends": "eslint-config-synacor"
+    },
+    "devDependencies": {
+        "@poi/plugin-typescript": "10.2.0",
+        "@types/react": "16.3.18",
+        "@types/react-dom": "16.0.6",
+        "eslint": "^4.5.0",
+        "eslint-config-synacor": "^1.1.0",
+        "if-env": "^1.0.0",
+        "poi": "10.2.9",
+        "react-hot-loader": "4.3.3"
+    },
+    "dependencies": {
+        "@types/classnames": "2.2.4",
+        "classnames": "^2.2.5",
+        "postcss-custom-media": "6.0.0",
+        "postcss-nested": "3.0.0",
+        "prettier": "^1.6.0",
+        "raw-loader": "0.5.1",
+        "react": "16.4.1",
+        "react-dom": "16.4.1",
+        "react-svg-inline": "2.1.1",
+        "tslint": "5.10.0",
+        "typescript": "2.9.2"
+    }
 }

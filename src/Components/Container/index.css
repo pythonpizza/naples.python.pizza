@@ -1,0 +1,22 @@
+:root {
+    --container-small: 72rem;
+    --container-medium: 96rem;
+    --container-large: 120rem;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 3rem;
+
+    &--small {
+        max-width: var(--container-small);
+    }
+
+    &--medium {
+        max-width: var(--container-medium);
+    }
+
+    &--large {
+        max-width: var(--container-large);
+    }
+}

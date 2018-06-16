@@ -1,4 +1,7 @@
-import './style';
-import App from './components/app';
+/// <reference path='./Types/react-svg-inline.d.ts'/>
 
-export default App;
+import ReactDOM from 'react-dom';
+
+import App from '@/Components/App';
+
+ReactDOM.render(<App />, window.app);
