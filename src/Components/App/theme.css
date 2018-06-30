@@ -1,5 +1,6 @@
 :root {
-    --font-name: Zilla Slab, serif;
+    --font-name--heading: 'Roboto Mono', sans-serif;
+    --font-name--paragraph: 'Open Sans', sans-serif;
     /* Colors definitions */
     --white: #ffffff;
     --iron: #CAC9C9;
