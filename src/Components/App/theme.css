@@ -13,10 +13,10 @@
     --size-heading-2: 2.5rem;
     --size-text: 2rem;
     --grid-columns: 1fr;
-    @media (--mobile) {
+    @media (--tablet) {
         --grid-columns: 1fr 1fr;
     }
-    @media (--tablet) {
+    @media (--laptop) {
         --grid-columns: 1fr 1fr 1fr;
     }
 }
