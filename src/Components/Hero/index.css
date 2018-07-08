@@ -27,8 +27,8 @@
     }
     &--info {
         z-index: 1;
-        margin-bottom: 17rem;
         padding: 0 3rem;
+        transform: translateY(-8vw);
         h1 {
             font-size: 8rem;
         }
