@@ -9,17 +9,22 @@
         margin-top: 3rem;
     }
     @media (--tablet) {
-        >*:nth-child(2n + 2) {
-            margin-top: 3rem;
+        >* {
+            margin-top: 0;
+            &:nth-child(2n + 2) {
+                margin-top: 3rem;
+            }
         }
     }
     @media (--laptop) {
-        >*:nth-child(2n + 2) {
-            margin-top: 0;
-        }
-        >*:nth-child(3n + 1),
-        >*:nth-child(3n + 3) {
-            margin-top: 3rem;
+        >* {
+            &:nth-child(2n + 2) {
+                margin-top: 0;
+            }
+            &:nth-child(3n + 1),
+            &:nth-child(3n + 3) {
+                margin-top: 3rem;
+            }
         }
     }
 }
