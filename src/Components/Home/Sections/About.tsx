@@ -5,7 +5,7 @@ import Container, { Sizes } from '@/Components/Container';
 export default class About extends React.Component {
     render() {
         return (
-            <section>
+            <section id="about">
                 <Container size={Sizes.small}>
                     <h1>About python.pizza</h1>
                     <p>

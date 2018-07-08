@@ -16,7 +16,7 @@ export default class Sponsors extends React.Component {
         sponsors = new Array(6).fill(sponsors[0], 0, 6);
 
         return (
-            <section>
+            <section id="sponsors">
                 <Container size={Sizes.small}>
                     <h1>Sponsors</h1>
                     <p>I nostri sponsors</p>

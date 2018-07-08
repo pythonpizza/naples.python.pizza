@@ -18,7 +18,7 @@ export default class Speakers extends React.Component {
         speakers = new Array(9).fill(speakers[0], 0, 9);
 
         return (
-            <section className="speakers">
+            <section id="speakers" className="speakers">
                 <Container size={Sizes.large}>
                     <Container size={Sizes.small}>
                         <h1>15+ international speakers</h1>
