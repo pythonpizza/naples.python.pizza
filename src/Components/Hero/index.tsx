@@ -1,5 +1,6 @@
 import * as React from 'react';
-import SVGInline from 'react-svg-inline';
+
+import Wave from '@/Components/Wave';
 
 import './index.css';
 
@@ -12,7 +13,8 @@ export default class Hero extends React.Component {
                     <h2>15 Settembre 2018</h2>
                     <h2>Napoli</h2>
                 </div>
-                <SVGInline className="hero--wave" svg={require('Assets/wave.svg')} />
+
+                <Wave />
             </div>
         );
     }
