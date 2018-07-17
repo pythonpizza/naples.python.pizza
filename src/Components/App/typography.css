@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto+Mono');
+body {
+    font-family: var(--font-name--paragraph);
+}
 
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-p,
-div,
-span {
-    font-family: var(--font-name);
+h6 {
+    font-family: var(--font-name--heading);
+    font-weight: 400;
 }
 
 h1 {
@@ -28,4 +29,8 @@ a,
 div {
     font-size: var(--size-text);
     color: var(--text-color);
+}
+
+p {
+    line-height: 1.5;
 }
