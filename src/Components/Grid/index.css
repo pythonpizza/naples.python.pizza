@@ -5,19 +5,22 @@
     grid-row-gap: 0;
     align-items: flex-start;
     margin: 5rem 0;
-    >* {
+
+    > * {
         margin-top: 3rem;
     }
+
     @media (--tablet) {
-        >* {
+        > * {
             margin-top: 0;
             &:nth-child(2n + 2) {
                 margin-top: 3rem;
             }
         }
     }
+
     @media (--laptop) {
-        >* {
+        > * {
             &:nth-child(2n + 2) {
                 margin-top: 0;
             }
