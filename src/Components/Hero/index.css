@@ -18,9 +18,11 @@
     padding-top: 16.9rem;
     position: relative;
     background: url(../../../assets/bg.jpg) center / cover;
+
     @media (--tablet) {
         padding-top: 11rem;
     }
+
     &:before {
         content: '';
         position: absolute;
@@ -31,26 +33,33 @@
         background: var(--primary-color);
         opacity: 0.6;
     }
+
     &--info {
         z-index: 1;
         padding: 0 3rem;
         margin: auto;
+
         h1 {
             font-size: 4.2rem;
             font-weight: bold;
+
             @media (--mobile) {
                 font-size: 5.4rem;
             }
+
             @media (--tablet) {
                 font-size: 8rem;
             }
         }
+
         h2 {
             font-size: 2.6rem;
+
             @media (--mobile) {
                 font-size: 3.5rem;
             }
         }
+
         h1,
         h2 {
             text-align: center;
