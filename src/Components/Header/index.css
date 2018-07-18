@@ -25,8 +25,15 @@
     &--links {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
         margin-top: 1rem;
         letter-spacing: 0.1em;
+
+        @media (--mobile) {
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
 
         @media (--tablet) {
             margin-top: 0;
@@ -51,7 +58,12 @@
             }
 
             & + li {
-                margin-left: 2rem;
+                margin-top: 2rem;
+
+                @media (--mobile) {
+                    margin-top: 0;
+                    margin-left: 2rem;
+                }
             }
 
             &:last-child {
