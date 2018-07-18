@@ -1,22 +1,17 @@
-:root {
-    --container-small: 72rem;
-    --container-medium: 96rem;
-    --container-large: 120rem;
-}
-
 .container {
     margin: 0 auto;
     padding: 0 3rem;
+    max-width: var(--container-size);
 
     &--small {
-        max-width: var(--container-small);
+        --container-size: 72rem;
     }
 
     &--medium {
-        max-width: var(--container-medium);
+        --container-size: 96rem;
     }
 
     &--large {
-        max-width: var(--container-large);
+        --container-size: 120rem;
     }
 }
