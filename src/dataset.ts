@@ -1,4 +1,5 @@
 import Speaker from '@/Types/Speaker';
+import Sponsor from '@/Types/Sponsor';
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -35,5 +36,13 @@ export const SPEAKERS: Speaker[] = [
         name: 'Valerio Maggio',
         photo: 'https://pbs.twimg.com/profile_images/955716617006211072/vW5eTirr_400x400.jpg',
         job: 'Fondazione Bruno Kessler',
+    },
+];
+
+export const SPONSORS: Sponsor[] = [
+    {
+        name: 'Bit4Id',
+        photo: require('Assets/sponsors/bit4id.png'),
+        link: 'http://www.bit4id.it/',
     },
 ];

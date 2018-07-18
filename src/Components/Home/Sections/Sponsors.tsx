@@ -1,20 +1,11 @@
 import * as React from 'react';
 
 import Container, { Sizes } from '@/Components/Container';
-import ImagesShowcase from '@/Components/ImagesShowcase';
-import Image from '@/Types/Image';
+import SponsorsShowcase from '@/Components/SponsorsShowcase';
+import { SPONSORS } from '@/dataset';
 
 export default class Sponsors extends React.Component {
     render() {
-        let sponsors: Image[] = [
-            {
-                name: 'GitLab',
-                image: require('Assets/sponsors/gitlab.svg'),
-                link: 'https://gitlab.com',
-            },
-        ];
-        sponsors = new Array(6).fill(sponsors[0], 0, 6);
-
         return (
             <section id="sponsors">
                 <Container size={Sizes.small}>
@@ -22,7 +13,7 @@ export default class Sponsors extends React.Component {
                     <p>I nostri sponsors</p>
                 </Container>
                 <Container size={Sizes.large}>
-                    <ImagesShowcase images={sponsors} />
+                    <SponsorsShowcase sponsors={SPONSORS} />
                 </Container>
             </section>
         );
