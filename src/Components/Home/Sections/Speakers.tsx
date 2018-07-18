@@ -16,11 +16,7 @@ export default class Speakers extends React.Component {
             <section id="speakers" className="speakers">
                 <Container size={Sizes.large}>
                     <Container size={Sizes.small}>
-                        <h1>15+ international speakers</h1>
-                        <p className="speakers--description">
-                            Yup babel debugger lodash s3 classnames webpack. Stackoverflow cloud throttle grunt reactive
-                            Yup babel debugger lodash s3 classnames webpack. Stackoverflow cloud throttle grunt reactive
-                        </p>
+                        <h1>Speakers</h1>
                     </Container>
                     <Grid>
                         {this.shuffleArray(SPEAKERS).map((speaker, i) => <SpeakerCard key={i} speaker={speaker} />)}
