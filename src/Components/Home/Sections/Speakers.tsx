@@ -4,8 +4,13 @@ import Container, { Sizes } from '@/Components/Container';
 import Grid from '@/Components/Grid';
 import SpeakerCard from '@/Components/SpeakerCard';
 import { SPEAKERS } from '@/dataset';
+import Speaker from '@/Types/Speaker';
 
 export default class Speakers extends React.Component {
+    shuffleArray(arr: Speaker[]) {
+        return [...arr].sort(() => 0.5 - Math.random());
+    }
+
     render() {
         return (
             <section id="speakers" className="speakers">
@@ -17,7 +22,9 @@ export default class Speakers extends React.Component {
                             Yup babel debugger lodash s3 classnames webpack. Stackoverflow cloud throttle grunt reactive
                         </p>
                     </Container>
-                    <Grid>{SPEAKERS.map((speaker, i) => <SpeakerCard key={i} speaker={speaker} />)}</Grid>
+                    <Grid>
+                        {this.shuffleArray(SPEAKERS).map((speaker, i) => <SpeakerCard key={i} speaker={speaker} />)}
+                    </Grid>
                 </Container>
             </section>
         );
