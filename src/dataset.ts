@@ -26,4 +26,14 @@ export const SPEAKERS: Speaker[] = [
         photo: 'https://pbs.twimg.com/profile_images/928684714185064448/jhl36f7W_400x400.jpg',
         talk: 'TBA',
     },
+    {
+        name: 'Iacopo Spalletti',
+        photo: 'https://pbs.twimg.com/profile_images/2527288391/wr949gu8t2n995u19h98_400x400.png',
+        talk: 'TBA',
+    },
+    {
+        name: 'Valerio Maggio',
+        photo: 'https://pbs.twimg.com/profile_images/955716617006211072/vW5eTirr_400x400.jpg',
+        talk: 'TBA',
+    },
 ];
