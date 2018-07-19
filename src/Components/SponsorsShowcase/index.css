@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: var(--grid-columns);
     justify-items: center;
+    margin: 5rem 0;
 
     img {
         width: auto;
