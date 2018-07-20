@@ -33,6 +33,10 @@
         height: 100%;
         background: var(--primary-color);
         opacity: 0.6;
+        @supports (mix-blend-mode: hard-light) {
+            opacity: 1;
+            mix-blend-mode: hard-light;
+        }
     }
     &--info {
         z-index: 1;
