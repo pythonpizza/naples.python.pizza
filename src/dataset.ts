@@ -45,4 +45,14 @@ export const SPONSORS: Sponsor[] = [
         photo: require('Assets/sponsors/bit4id.png'),
         link: 'http://www.bit4id.it/',
     },
+    {
+        name: 'ROLL',
+        photo: require('Assets/sponsors/roll.png'),
+        link: 'https://rollstudio.co.uk/',
+    },
+    {
+        name: 'Tattakki',
+        photo: require('Assets/sponsors/tattakki.png'),
+        link: 'https://www.instagram.com/tattakki/',
+    },
 ];
