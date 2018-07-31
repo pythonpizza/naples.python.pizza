@@ -18,12 +18,15 @@
     padding-top: 32.9rem;
     position: relative;
     background: url(../../../assets/bg.jpg) center / cover;
+
     @media (--mobile) {
         padding-top: 16.9rem;
     }
+
     @media (--tablet) {
         padding-top: 11rem;
     }
+
     &:before {
         content: '';
         position: absolute;
@@ -33,27 +36,34 @@
         height: 100%;
         background: var(--primary-color);
         opacity: 0.6;
+
         @supports (mix-blend-mode: hard-light) {
             opacity: 1;
             mix-blend-mode: hard-light;
         }
     }
+
     &--info {
         z-index: 1;
         padding: 0 3rem;
         margin: auto;
+
         h1 {
             font-size: 4.2rem;
             font-weight: bold;
+
             @media (--mobile) {
                 font-size: 5.4rem;
             }
+
             @media (--tablet) {
                 font-size: 8rem;
             }
         }
+
         h2 {
             font-size: 2.6rem;
+
             @media (--mobile) {
                 font-size: 3.5rem;
             }
@@ -63,6 +73,7 @@
                 color: currentColor;
             }
         }
+
         h1,
         h2 {
             text-align: center;
