@@ -51,6 +51,11 @@ export const SPONSORS: Sponsor[] = [
         link: 'https://rollstudio.co.uk/',
     },
     {
+        name: '012 Factory',
+        photo: require('Assets/sponsors/012factory.png'),
+        link: 'https://www.012factory.it/',
+    },
+    {
         name: 'Tattakki',
         photo: require('Assets/sponsors/tattakki.png'),
         link: 'https://www.instagram.com/tattakki/',
