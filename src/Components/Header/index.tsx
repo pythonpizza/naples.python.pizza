@@ -45,7 +45,7 @@ export default class Header extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <a href="#" target="_blank">
+                            <a href="https://www.eventbrite.co.uk/e/biglietti-python-pizza-2018-47214434645/" target="_blank">
                                 Tickets
                             </a>
                         </li>
