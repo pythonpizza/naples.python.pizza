@@ -1,6 +1,7 @@
 .sponsors-showcase {
     display: grid;
     grid-template-columns: var(--grid-columns);
+    grid-row-gap: 3rem;
     justify-items: center;
     margin: 5rem 0;
 
