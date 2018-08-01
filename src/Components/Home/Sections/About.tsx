@@ -9,9 +9,10 @@ export default class About extends React.Component {
                 <Container size={Sizes.small}>
                     <h1>About python.pizza</h1>
                     <p>
-                        Lo scopo principale dell'evento è quello del "networking sociale" ossia fare incontrare "de
-                        visu", per la prima volta, la parte territoriale campana della community globale degli utenti
-                        Python.
+                        Python.pizza è un evento gratuito organizzato da Python Italia che ha il doppio scopo di portare
+                        le ultime tendenze di programmazione Python organizzando sessioni di talk con speakers
+                        provenienti da tutta Italia, e di invogliare le persone a creare a loro volta community locali
+                        ed eventi per accelerare lo sviluppo tecnologico nel sud Italia.
                     </p>
                 </Container>
             </section>
