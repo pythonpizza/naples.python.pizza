@@ -31,7 +31,7 @@ export default class Header extends React.Component {
                     <ul className="header--links">
                         <li>
                             <a onClick={this.onNavClick} href="#about" data-destination="about">
-                                About
+                                Su di noi
                             </a>
                         </li>
                         <li>
@@ -45,8 +45,12 @@ export default class Header extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.eventbrite.co.uk/e/biglietti-python-pizza-2018-47214434645/" target="_blank" rel="noopener noreferrer">
-                                Tickets
+                            <a
+                                href="https://www.eventbrite.co.uk/e/biglietti-python-pizza-2018-47214434645/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Biglietti
                             </a>
                         </li>
                     </ul>

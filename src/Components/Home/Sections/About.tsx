@@ -7,7 +7,7 @@ export default class About extends React.Component {
         return (
             <section id="about">
                 <Container size={Sizes.small}>
-                    <h1>About python.pizza</h1>
+                    <h1>Su di noi</h1>
                     <p>
                         Python.pizza è un evento gratuito organizzato da Python Italia che ha il doppio scopo di portare
                         le ultime tendenze di programmazione Python organizzando sessioni di talk con speakers
