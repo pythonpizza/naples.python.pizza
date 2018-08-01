@@ -12,6 +12,14 @@ import './typography.css';
 smoothscroll.polyfill();
 
 export default class App extends React.Component {
+    componentWillMount() {
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.ready.then(registration => {
+                registration.unregister();
+            });
+        }
+    }
+
     render() {
         return (
             <div>
