@@ -12,11 +12,19 @@
         height: auto;
     }
 
+    a#notabug img {
+        width: 12rem;
+    }
+
     @media (--tablet) {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
     @media (--laptop) {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        #tattakki {
+            grid-column-start: 2;
+        }
     }
 }

@@ -13,7 +13,7 @@ export default class SponsorsShowcase extends React.Component<SponsorsShowcasePr
         return (
             <div className="sponsors-showcase">
                 {sponsors.map(sponsor => (
-                    <a key={sponsor.name} href={sponsor.link} target="_blank" rel="noopener noreferrer">
+                    <a id={sponsor.id} key={sponsor.name} href={sponsor.link} target="_blank" rel="noopener noreferrer">
                         <img src={sponsor.photo} />
                     </a>
                 ))}
