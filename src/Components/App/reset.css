@@ -206,3 +206,7 @@ span.SVGInline {
 ul {
     list-style: none;
 }
+
+#app {
+    overflow: hidden;
+}

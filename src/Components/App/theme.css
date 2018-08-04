@@ -1,21 +1,26 @@
 :root {
     --font-name--heading: 'Roboto Mono', sans-serif;
     --font-name--paragraph: 'Open Sans', sans-serif;
+
     /* Colors definitions */
     --white: #ffffff;
-    --iron: #CAC9C9;
+    --iron: #cac9c9;
     --black: #000000;
+
     /* Colors applications */
-    --primary-color: #ED4337;
+    --primary-color: #ed4337;
     --text-color: #464444;
+
     /* sizes */
     --size-heading-1: 3.5rem;
     --size-heading-2: 2.5rem;
     --size-text: 2rem;
     --grid-columns: 1fr;
+
     @media (--tablet) {
         --grid-columns: 1fr 1fr;
     }
+
     @media (--laptop) {
         --grid-columns: 1fr 1fr 1fr;
     }
