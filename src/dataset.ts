@@ -37,6 +37,12 @@ export const SPEAKERS: Speaker[] = [
         photo: 'https://pbs.twimg.com/profile_images/955716617006211072/vW5eTirr_400x400.jpg',
         job: 'Fondazione Bruno Kessler',
     },
+    {
+        name: 'Elena Nieddu',
+        photo:
+            'https://media.licdn.com/dms/image/C5603AQGV5UrhBFqt5Q/profile-displayphoto-shrink_800_800/0?e=1539216000&v=beta&t=c9uuFmxCHZg4slnv9SbrAE9bjHC9-FM32ASlohR3ph0',
+        job: 'PhD student in Computer Science',
+    },
 ];
 
 export const SPONSORS: Sponsor[] = [
