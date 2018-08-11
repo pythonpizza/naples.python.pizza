@@ -3,9 +3,9 @@ import Sponsor from '@/Types/Sponsor';
 
 export const SPEAKERS: Speaker[] = [
     {
-        name: 'Patrick Guido Arminio',
-        photo: 'https://pbs.twimg.com/profile_images/919207390880456705/gqcS3mMB_400x400.jpg',
-        job: 'Stink Studios',
+        name: 'Domenico Testa',
+        photo: 'https://s3-eu-west-1.amazonaws.com/pythonpizza/speakers/domenico-testa.jpg',
+        job: 'Bit4id',
     },
     {
         name: 'Fiorella De Luca',
