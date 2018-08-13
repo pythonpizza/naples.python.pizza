@@ -16,6 +16,11 @@ const SOCIALS = [
         icon: require('Assets/socials/twitter.png'),
         link: 'https://twitter.com/pythonpizzaconf/',
     },
+    {
+        name: 'instagram',
+        icon: require('Assets/socials/instagram.png'),
+        link: 'https://www.instagram.com/python.pizza/',
+    },
 ];
 
 export default class Footer extends React.Component {
