@@ -4,6 +4,7 @@ import * as smoothscroll from 'smoothscroll-polyfill';
 
 import Home from '@/Components/Home';
 import Header from '@/Components/Header';
+import Footer from '@/Components/Footer';
 
 import './reset.css';
 import './theme.css';
@@ -25,6 +26,7 @@ export default class App extends React.Component {
             <div>
                 <Header />
                 <Home />
+                <Footer />
             </div>
         );
     }
