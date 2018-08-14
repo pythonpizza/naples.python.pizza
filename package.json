@@ -18,7 +18,7 @@
         "react-hot-loader": "4.3.3"
     },
     "dependencies": {
-        "@types/classnames": "2.2.4",
+        "@types/classnames": "^2.2.6",
         "@types/smoothscroll-polyfill": "0.3.0",
         "classnames": "^2.2.5",
         "eslint-plugin-typescript": "0.12.0",
