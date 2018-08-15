@@ -18,10 +18,10 @@ export default class ScheduleItem extends React.Component<ScheduleItemProps, {}>
         const img = new Image();
         img.onload = () => {
             this.setState({ isLoaded: true });
-        }
+        };
         img.onerror = () => {
             this.setState({ isError: true });
-        }
+        };
         setTimeout(() => {
             img.src = speaker.photo;
         }, 300 + 500 * Math.random());
@@ -42,6 +42,7 @@ export default class ScheduleItem extends React.Component<ScheduleItemProps, {}>
                 <div className="schedule-item--info">
                     <h2>{speaker.name}</h2>
                     <p>{speaker.job}</p>
+                    <span className="schedule-item--time">{speaker.talk.time}</span>
                 </div>
             </li>
         );

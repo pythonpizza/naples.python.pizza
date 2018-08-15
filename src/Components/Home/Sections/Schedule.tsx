@@ -8,7 +8,7 @@ import Speaker from '@/Types/Speaker';
 
 export default class Schedule extends React.Component {
     sortArray(arr: Speaker[]) {
-        return [...arr].sort((a, b) => a.talk.order > b.talk.order);
+        return [...arr].sort((a: Speaker, b: Speaker) => a.talk.order - b.talk.order);
     }
 
     render() {
