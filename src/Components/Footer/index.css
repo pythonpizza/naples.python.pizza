@@ -18,7 +18,8 @@
             height: 3.2rem;
             margin: 0 1rem;
 
-            transition: transform .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+            transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+            cursor: pointer;
 
             img {
                 width: 100%;
