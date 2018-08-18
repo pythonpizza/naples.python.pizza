@@ -1,16 +1,10 @@
 import * as React from 'react';
 
 import Container, { Sizes } from '@/Components/Container';
-import Grid from '@/Components/Grid';
 import ScheduleItem from '@/Components/ScheduleItem';
-import { SPEAKERS } from '@/dataset';
-import Speaker from '@/Types/Speaker';
+import { SPEAKERS, SCHEDULE } from '@/dataset';
 
 export default class Schedule extends React.Component {
-    sortArray(arr: Speaker[]) {
-        return [...arr].sort((a: Speaker, b: Speaker) => a.talk.order - b.talk.order);
-    }
-
     render() {
         return (
             <section id="schedule" className="schedule">
@@ -19,7 +13,13 @@ export default class Schedule extends React.Component {
                         <h1>Programma</h1>
                     </Container>
                     <ul>
-                        {this.sortArray(SPEAKERS).map((speaker, i) => <ScheduleItem key={i} speaker={speaker} />)}
+                        {SCHEDULE.map(schedule => (
+                            <ScheduleItem
+                                key={schedule.order}
+                                schedule={schedule}
+                                speaker={typeof schedule.speaker !== 'undefined' ? SPEAKERS[schedule.speaker] : null}
+                            />
+                        ))}
                     </ul>
                 </Container>
             </section>

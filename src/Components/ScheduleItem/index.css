@@ -5,8 +5,16 @@
     border-radius: 0.8rem;
     position: relative;
 
+    &--other {
+        margin-top: 6rem;
+    }
+
     @media (--mobile) {
         margin-top: 14rem;
+
+        &--other {
+            margin-top: 7rem;
+        }
     }
 
     @media (--tablet) {
@@ -142,6 +150,27 @@
                 left: 5rem;
                 right: auto;
                 transform: translate(-50%, -50%);
+            }
+        }
+    }
+
+    &--other {
+        &:nth-child(2n) {
+            .schedule-item--info {
+                padding-left: 10rem;
+                padding-right: 10rem;
+            }
+        }
+
+        .schedule-item--info {
+            padding: 2rem 4rem;
+
+            @media (--mobile) {
+                padding: 2rem 4rem;
+            }
+
+            @media (--tablet) {
+                padding: 2rem 10rem;
             }
         }
     }
