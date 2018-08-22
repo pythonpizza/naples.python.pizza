@@ -101,7 +101,7 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 2,
         time: '10:45',
-        title: 'Nome Talk Domenico Testa',
+        title: "L'approccio a micro-servizi per le web-application con python e docker",
         type: Types.TALK,
         speaker: 0,
     },
