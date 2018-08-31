@@ -1,0 +1,22 @@
+.home section.coc {
+    padding-bottom: 9rem;
+}
+
+.coc {
+    p + p,
+    p + ul,
+    ul + p {
+        padding-top: 1rem;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    a {
+        color: var(--primary-color);
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
