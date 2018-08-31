@@ -45,41 +45,53 @@ export const SPEAKERS: Speaker[] = [
     },
 ];
 
-export const SPONSORS: Sponsor[] = [
-    {
-        id: 'pythonitalia',
-        name: 'Python Italia',
-        photo: require('Assets/sponsors/python-italia.png'),
-        link: 'https://pycon.it/',
-    },
-    {
-        id: 'bit4id',
-        name: 'Bit4Id',
-        photo: require('Assets/sponsors/bit4id.png'),
-        link: 'http://www.bit4id.it/',
-    },
-    {
-        id: 'roll',
-        name: 'ROLL',
-        photo: require('Assets/sponsors/roll.png'),
-        link: 'https://rollstudio.co.uk/',
-    },
-    {
-        id: '012factory',
-        name: '012 Factory',
-        photo: require('Assets/sponsors/012factory.png'),
-        link: 'https://www.012factory.it/',
-    },
-    {
-        id: 'tattakki',
-        name: 'Tattakki',
-        photo: require('Assets/sponsors/tattakki.png'),
-        link: 'https://www.instagram.com/tattakki/',
-    },
-    {
-        id: 'notabug',
-        name: 'Not a bug Conf',
-        photo: require('Assets/sponsors/notabugconf.png'),
-        link: 'https://notabugconf.it/',
-    },
+export const SPONSORS: Sponsor[][] = [
+    [
+        {
+            id: 'pythonitalia',
+            name: 'Python Italia',
+            photo: require('Assets/sponsors/python-italia.png'),
+            link: 'https://pycon.it/',
+        },
+        {
+            id: 'psf',
+            name: 'Python Software Foundation',
+            photo: require('Assets/sponsors/psf.png'),
+            link: 'https://www.012factory.it/',
+        },
+    ],
+    [
+        {
+            id: 'bit4id',
+            name: 'Bit4Id',
+            photo: require('Assets/sponsors/bit4id.png'),
+            link: 'http://www.bit4id.it/',
+        },
+        {
+            id: 'roll',
+            name: 'ROLL',
+            photo: require('Assets/sponsors/roll.png'),
+            link: 'https://rollstudio.co.uk/',
+        },
+        {
+            id: 'f012actory',
+            name: '012 Factory',
+            photo: require('Assets/sponsors/012factory.png'),
+            link: 'https://www.012factory.it/',
+        },
+    ],
+    [
+        {
+            id: 'tattakki',
+            name: 'Tattakki',
+            photo: require('Assets/sponsors/tattakki.png'),
+            link: 'https://www.instagram.com/tattakki/',
+        },
+        {
+            id: 'notabug',
+            name: 'Not a bug Conf',
+            photo: require('Assets/sponsors/notabugconf.png'),
+            link: 'https://notabugconf.it/',
+        },
+    ],
 ];
