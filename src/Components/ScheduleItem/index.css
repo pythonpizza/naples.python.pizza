@@ -5,20 +5,20 @@
     border-radius: 0.8rem;
     position: relative;
 
-    &--other {
+    &--small {
         margin-top: 6rem;
     }
 
     @media (--mobile) {
         margin-top: 14rem;
 
-        &--other {
+        &--small {
             margin-top: 7rem;
         }
     }
 
     @media (--tablet) {
-        max-width: 64rem;
+        max-width: 70rem;
         margin-top: 4rem;
     }
 
@@ -154,7 +154,7 @@
         }
     }
 
-    &--other {
+    &--small {
         &:nth-child(2n) {
             .schedule-item--info {
                 padding-left: 10rem;
@@ -173,5 +173,34 @@
                 padding: 2rem 10rem;
             }
         }
+    }
+
+    &--break,
+    &--lunch {
+        .schedule-item--info {
+            animation: bg-move 2s infinite linear;
+
+            background-image: linear-gradient(
+                45deg,
+                transparent 25%,
+                var(--wild-sand) 25%,
+                var(--wild-sand) 50%,
+                transparent 50%,
+                transparent 75%,
+                var(--wild-sand) 75%
+            );
+            background-size: 48px 48px;
+            background-repeat: repeat;
+        }
+    }
+}
+
+@keyframes bg-move {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: 48px;
     }
 }

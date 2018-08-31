@@ -46,7 +46,10 @@ export default class ScheduleItem extends React.Component<ScheduleItemProps, {}>
         const isTalk = this.isTalk();
 
         const scheduleItemClasses = classnames('schedule-item', {
-            'schedule-item--other': !isTalk,
+            'schedule-item--small': !isTalk,
+            'schedule-item--other': schedule.type === Types.OTHER,
+            'schedule-item--break': schedule.type === Types.BREAK,
+            'schedule-item--lunch': schedule.type === Types.LUNCH,
         });
 
         const imageClasses = classnames('schedule-item--image', {

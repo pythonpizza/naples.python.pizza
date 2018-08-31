@@ -1,6 +1,8 @@
 export enum Types {
     TALK,
     OTHER,
+    BREAK,
+    LUNCH,
 }
 
 export default interface Schedule {
