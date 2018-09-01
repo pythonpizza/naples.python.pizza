@@ -10,6 +10,10 @@
         width: 12rem;
     }
 
+    a#psf img {
+        width: 16rem;
+    }
+
     &--row {
         display: grid;
         align-items: center;
