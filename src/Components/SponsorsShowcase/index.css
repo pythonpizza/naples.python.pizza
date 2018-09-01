@@ -19,10 +19,6 @@
         justify-items: center;
     }
 
-    &--sponsor {
-        margin: 3rem;
-    }
-
     @media (--tablet) {
         &--row {
             grid-template-columns: repeat(3, 1fr);
