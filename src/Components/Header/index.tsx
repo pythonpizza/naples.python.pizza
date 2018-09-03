@@ -35,8 +35,8 @@ export default class Header extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <a onClick={this.onNavClick} href="#speakers" data-destination="speakers">
-                                Speakers
+                            <a onClick={this.onNavClick} href="#schedule" data-destination="schedule">
+                                Programma
                             </a>
                         </li>
                         <li>

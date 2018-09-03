@@ -5,7 +5,7 @@ import './index.css';
 import Hero from '@/Components/Hero';
 
 import About from './Sections/About';
-import Speakers from './Sections/Speakers';
+import Schedule from './Sections/Schedule';
 import Sponsors from './Sections/Sponsors';
 import Coc from './Sections/Coc';
 
@@ -15,7 +15,7 @@ export default class Home extends React.Component {
             <div className="home">
                 <Hero />
                 <About />
-                <Speakers />
+                <Schedule />
                 <Sponsors />
                 <Coc />
             </div>
