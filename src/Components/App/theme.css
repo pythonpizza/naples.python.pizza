@@ -11,6 +11,7 @@
     /* Colors applications */
     --primary-color: #ed4337;
     --text-color: #464444;
+    --schedule-bar-color: var(--wild-sand);
 
     /* sizes */
     --size-heading-1: 3.5rem;

@@ -57,12 +57,14 @@ export default class ScheduleItem extends React.Component<ScheduleItemProps, {}>
             'schedule-item--image--error': isError,
         });
 
+        const SpeakerNameTag = isTalk && speaker!.social ? 'a' : 'p';
+
         return (
             <li className={scheduleItemClasses}>
                 {isTalk && <div className={imageClasses} style={{ backgroundImage: `url(${speaker!.photo})` }} />}
                 <div className="schedule-item--info">
                     <h2>{schedule.title}</h2>
-                    {isTalk && <p>{speaker!.name}</p>}
+                    {isTalk && <SpeakerNameTag href={speaker!.social}>{speaker!.name}</SpeakerNameTag>}
                     <span className="schedule-item--time">{schedule.time}</span>
                 </div>
             </li>

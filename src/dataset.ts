@@ -2,6 +2,15 @@ import Speaker from '@/Types/Speaker';
 import Sponsor from '@/Types/Sponsor';
 import Schedule, { Types } from '@/Types/Schedule';
 
+const DOMENICO_TESTA = 0;
+const FIORELLA_DE_LUCA = 1;
+const ANDREA_STAGI = 2;
+const SALVATORE_BUSIELLO = 3;
+const VINCENZO_SANTOPIETRO = 4;
+const IACOPO_SPALLETTI = 5;
+const VALERIO_MAGGIO = 6;
+const ELENA_NIEDDU = 7;
+
 export const SPEAKERS: Speaker[] = [
     {
         name: 'Domenico Testa',
@@ -12,37 +21,44 @@ export const SPEAKERS: Speaker[] = [
         name: 'Fiorella De Luca',
         photo: 'https://pbs.twimg.com/profile_images/914168800962121729/8_kIl1M-_400x400.jpg',
         job: 'Women Techmakers',
+        social: 'https://twitter.com/fiorella_deluca',
     },
     {
         name: 'Andrea Stagi',
         photo: 'https://pbs.twimg.com/profile_images/963179422475083778/wcQt7MlF_400x400.jpg',
         job: 'Lotrek',
+        social: 'https://twitter.com/4stagi',
     },
     {
         name: 'Salvatore Busiello',
         photo: 'https://pbs.twimg.com/profile_images/931954046822502400/8yONc3hg_400x400.jpg',
         job: 'Lotrek',
+        social: 'https://twitter.com/owanesh',
     },
     {
         name: 'Vincenzo Santopietro',
         photo: 'https://pbs.twimg.com/profile_images/928684714185064448/jhl36f7W_400x400.jpg',
         job: 'Intel Student Ambassador',
+        social: 'https://twitter.com/vinx_key',
     },
     {
         name: 'Iacopo Spalletti',
         photo: 'https://pbs.twimg.com/profile_images/2527288391/wr949gu8t2n995u19h98_400x400.png',
         job: 'Nephila',
+        social: 'https://twitter.com/yakkys',
     },
     {
         name: 'Valerio Maggio',
         photo: 'https://pbs.twimg.com/profile_images/955716617006211072/vW5eTirr_400x400.jpg',
         job: 'Fondazione Bruno Kessler',
+        social: 'https://twitter.com/leriomaggio',
     },
     {
         name: 'Elena Nieddu',
         photo:
             'https://media.licdn.com/dms/image/C5603AQGV5UrhBFqt5Q/profile-displayphoto-shrink_800_800/0?e=1539216000&v=beta&t=c9uuFmxCHZg4slnv9SbrAE9bjHC9-FM32ASlohR3ph0',
         job: 'PhD student in Computer Science',
+        social: 'https://www.linkedin.com/in/elena-nieddu-b06896154/',
     },
 ];
 
@@ -101,16 +117,16 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 2,
         time: '10:45',
-        title: "L'approccio a micro-servizi per le web-application con python e docker",
+        title: "Codice Ratio: mining nell'Archivio Segreto Vaticano",
         type: Types.TALK,
-        speaker: 0,
+        speaker: ELENA_NIEDDU,
     },
     {
         order: 3,
         time: '11:30',
-        title: 'AI at the edge with Intel Neural Compute Stick',
+        title: 'L’approccio a micro-servizi per le web-application con python e docker',
         type: Types.TALK,
-        speaker: 4,
+        speaker: DOMENICO_TESTA,
     },
     {
         order: 4,
@@ -121,16 +137,16 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 5,
         time: '12:30',
-        title: 'Read the stars with Apistar',
+        title: 'Introduzione alle applicazioni realtime con Django',
         type: Types.TALK,
-        speaker: 3,
+        speaker: IACOPO_SPALLETTI,
     },
     {
         order: 6,
         time: '13:15',
-        title: 'Estendere Python con Go',
+        title: 'AI at the edge with Intel Neural Compute Stick',
         type: Types.TALK,
-        speaker: 2,
+        speaker: VINCENZO_SANTOPIETRO,
     },
     {
         order: 7,
@@ -143,14 +159,14 @@ export const SCHEDULE: Schedule[] = [
         time: '15:00',
         title: 'Scrivere i primi test frontend con python? Si Può!',
         type: Types.TALK,
-        speaker: 1,
+        speaker: FIORELLA_DE_LUCA,
     },
     {
         order: 9,
         time: '15:00',
-        title: 'Nome Talk Valerio Maggio',
+        title: 'TBA',
         type: Types.TALK,
-        speaker: 6,
+        speaker: VALERIO_MAGGIO,
     },
     {
         order: 10,
@@ -161,16 +177,16 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 11,
         time: '16:45',
-        title: "Codice Ratio: mining nell'Archivio Segreto Vaticano",
+        title: 'Read the stars with Apistar',
         type: Types.TALK,
-        speaker: 7,
+        speaker: SALVATORE_BUSIELLO,
     },
     {
         order: 12,
         time: '17:30',
-        title: 'Introduzione alle applicazioni realtime con Django',
+        title: 'Estendere Python con Go',
         type: Types.TALK,
-        speaker: 5,
+        speaker: ANDREA_STAGI,
     },
     {
         order: 13,
