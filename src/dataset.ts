@@ -14,49 +14,48 @@ const ELENA_NIEDDU = 7;
 export const SPEAKERS: Speaker[] = [
     {
         name: 'Domenico Testa',
-        photo: 'https://s3-eu-west-1.amazonaws.com/pythonpizza/speakers/domenico-testa.jpg',
+        photo: require('../assets/speakers/domenico-testa.jpg'),
         job: 'Bit4id',
     },
     {
         name: 'Fiorella De Luca',
-        photo: 'https://pbs.twimg.com/profile_images/914168800962121729/8_kIl1M-_400x400.jpg',
+        photo: require('../assets/speakers/fiorella-de-luca.jpg'),
         job: 'Women Techmakers',
         social: 'https://twitter.com/fiorella_deluca',
     },
     {
         name: 'Andrea Stagi',
-        photo: 'https://pbs.twimg.com/profile_images/963179422475083778/wcQt7MlF_400x400.jpg',
+        photo: require('../assets/speakers/andrea-stagi.jpg'),
         job: 'Lotrek',
         social: 'https://twitter.com/4stagi',
     },
     {
         name: 'Salvatore Busiello',
-        photo: 'https://pbs.twimg.com/profile_images/931954046822502400/8yONc3hg_400x400.jpg',
+        photo: require('../assets/speakers/salvatore-busiello.jpg'),
         job: 'Lotrek',
         social: 'https://twitter.com/owanesh',
     },
     {
         name: 'Vincenzo Santopietro',
-        photo: 'https://pbs.twimg.com/profile_images/928684714185064448/jhl36f7W_400x400.jpg',
+        photo: require('../assets/speakers/vincenzo-santopietro.jpg'),
         job: 'Intel Student Ambassador',
         social: 'https://twitter.com/vinx_key',
     },
     {
         name: 'Iacopo Spalletti',
-        photo: 'https://pbs.twimg.com/profile_images/2527288391/wr949gu8t2n995u19h98_400x400.png',
+        photo: require('../assets/speakers/iacopo-spalletti.png'),
         job: 'Nephila',
         social: 'https://twitter.com/yakkys',
     },
     {
         name: 'Valerio Maggio',
-        photo: 'https://pbs.twimg.com/profile_images/955716617006211072/vW5eTirr_400x400.jpg',
+        photo: require('../assets/speakers/valerio-maggio.jpg'),
         job: 'Fondazione Bruno Kessler',
         social: 'https://twitter.com/leriomaggio',
     },
     {
         name: 'Elena Nieddu',
-        photo:
-            'https://media.licdn.com/dms/image/C5603AQGV5UrhBFqt5Q/profile-displayphoto-shrink_800_800/0?e=1539216000&v=beta&t=c9uuFmxCHZg4slnv9SbrAE9bjHC9-FM32ASlohR3ph0',
+        photo: require('../assets/speakers/elena-nieddu.jpg'),
         job: 'PhD student in Computer Science',
         social: 'https://www.linkedin.com/in/elena-nieddu-b06896154/',
     },
