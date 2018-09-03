@@ -174,7 +174,7 @@ export const SCHEDULE: Schedule[] = [
     },
     {
         order: 9,
-        time: '15:00',
+        time: '15:45',
         title: 'TBA',
         type: Types.TALK,
         speaker: VALERIO_MAGGIO,
