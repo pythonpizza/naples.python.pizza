@@ -6,12 +6,20 @@
         height: auto;
     }
 
-    a#notabug img {
-        width: 12rem;
-    }
+    a {
+        margin: 1.5rem 0;
 
-    a#psf img {
-        width: 16rem;
+        #notabug img {
+            width: 12rem;
+        }
+
+        #psf img {
+            width: 16rem;
+        }
+
+        @media (--tablet) {
+            margin: 0;
+        }
     }
 
     &--row {
