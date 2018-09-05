@@ -9,11 +9,11 @@
     a {
         margin: 1.5rem 0;
 
-        #notabug img {
+        &#notabug img {
             width: 12rem;
         }
 
-        #psf img {
+        &#psf img {
             width: 16rem;
         }
 
