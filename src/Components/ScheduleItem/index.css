@@ -206,7 +206,10 @@
         .schedule-item--info {
             --schedule-bar-color: rgba(0, 0, 0, 0.05);
             background-color: var(--primary-color);
-            color: var(--white);
+
+            @media (--tablet) {
+                color: var(--white);
+            }
         }
     }
 }
