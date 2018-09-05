@@ -25,7 +25,7 @@ export default class SponsorsShowcase extends React.Component<SponsorsShowcasePr
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <img src={sponsor.photo} />
+                                    <img alt={sponsor.name} src={sponsor.photo} />
                                 </a>
                             ))}
                         </div>
