@@ -13,9 +13,9 @@ export default class SponsorsShowcase extends React.Component<SponsorsShowcasePr
 
         return (
             <div className="sponsors-showcase">
-                {sponsors.map(row => {
+                {sponsors.map((row, i) => {
                     return (
-                        <div className="sponsors-showcase--row">
+                        <div key={i} className="sponsors-showcase--row">
                             {row.map(sponsor => (
                                 <a
                                     className="sponsors-showcase--sponsor"
