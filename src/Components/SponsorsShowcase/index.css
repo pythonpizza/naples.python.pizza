@@ -29,6 +29,8 @@
 
         align-items: center;
         justify-items: center;
+
+        margin: 2rem 0;
     }
 
     @media (--tablet) {
