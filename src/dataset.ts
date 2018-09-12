@@ -181,7 +181,7 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 9,
         time: '15:45',
-        title: 'TBA',
+        title: 'TBA: To Be Avoided - Coding Horrors and Pythonic Rants',
         type: Types.TALK,
         speaker: VALERIO_MAGGIO,
     },
