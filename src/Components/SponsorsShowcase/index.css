@@ -41,7 +41,7 @@
                 grid-template-columns: repeat(4, 1fr);
             }
 
-            #pythonitalia,
+            #bit4id,
             #tattakki {
                 grid-column-start: 2;
             }

@@ -64,20 +64,6 @@ export const SPEAKERS: Speaker[] = [
 export const SPONSORS: Sponsor[][] = [
     [
         {
-            id: 'pythonitalia',
-            name: 'Python Italia',
-            photo: require('Assets/sponsors/python-italia.png'),
-            link: 'https://pycon.it/',
-        },
-        {
-            id: 'psf',
-            name: 'Python Software Foundation',
-            photo: require('Assets/sponsors/psf.png'),
-            link: 'https://www.012factory.it/',
-        },
-    ],
-    [
-        {
             id: 'bit4id',
             name: 'Bit4Id',
             photo: require('Assets/sponsors/bit4id.png'),
@@ -88,6 +74,20 @@ export const SPONSORS: Sponsor[][] = [
             name: 'ROLL',
             photo: require('Assets/sponsors/roll.png'),
             link: 'https://rollstudio.co.uk/',
+        },
+    ],
+    [
+        {
+            id: 'pythonitalia',
+            name: 'Python Italia',
+            photo: require('Assets/sponsors/python-italia.png'),
+            link: 'https://pycon.it/',
+        },
+        {
+            id: 'psf',
+            name: 'Python Software Foundation',
+            photo: require('Assets/sponsors/psf.png'),
+            link: 'https://www.012factory.it/',
         },
         {
             id: 'f012actory',
