@@ -41,8 +41,11 @@
                 grid-template-columns: repeat(4, 1fr);
             }
 
-            #bit4id,
-            #tattakki {
+            &:last-child {
+                grid-template-columns: repeat(4, 1fr);
+            }
+
+            #bit4id {
                 grid-column-start: 2;
             }
         }

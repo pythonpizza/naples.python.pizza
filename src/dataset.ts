@@ -98,6 +98,12 @@ export const SPONSORS: Sponsor[][] = [
     ],
     [
         {
+            id: 'sorbillo',
+            name: 'Sorbillo',
+            photo: require('Assets/sponsors/sorbillo.png'),
+            link: 'http://sorbillo.it',
+        },
+        {
             id: 'jetbrains',
             name: 'Jetbrains',
             photo: require('Assets/sponsors/jetbrains.png'),
