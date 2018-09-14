@@ -207,6 +207,10 @@
             --schedule-bar-color: rgba(0, 0, 0, 0.05);
             background-color: var(--primary-color);
 
+            h2 {
+                color: var(--white);
+            }
+
             @media (--tablet) {
                 color: var(--white);
             }
