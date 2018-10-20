@@ -21,6 +21,11 @@ const SOCIALS = [
         icon: require('Assets/socials/instagram.png'),
         link: 'https://www.instagram.com/python.pizza/',
     },
+    {
+        name: 'youtube',
+        icon: require('Assets/socials/youtube.png'),
+        link: 'https://www.youtube.com/channel/UCdtynhT6G97JwdDPsiKbx8Q/',
+    },
 ];
 
 export default class Footer extends React.Component {
