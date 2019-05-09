@@ -1,6 +1,6 @@
 {
     "name": "python.pizza",
-    "version": "2018",
+    "version": "2019",
     "main": "src/index.js",
     "license": "MIT",
     "scripts": {
