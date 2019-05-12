@@ -1,6 +1,7 @@
 import Speaker from '@/Types/Speaker';
 import Sponsor from '@/Types/Sponsor';
 import Schedule, { Types } from '@/Types/Schedule';
+import SponsorGroup from '@/Types/SponsorGroup';
 
 const DOMENICO_TESTA = 0;
 const FIORELLA_DE_LUCA = 1;
@@ -61,67 +62,76 @@ export const SPEAKERS: Speaker[] = [
     },
 ];
 
-export const SPONSORS: Sponsor[][] = [
-    [
-        {
-            id: 'bit4id',
-            name: 'Bit4Id',
-            photo: require('Assets/sponsors/bit4id.png'),
-            link: 'http://www.bit4id.it/',
-        },
-        {
-            id: 'roll',
-            name: 'ROLL',
-            photo: require('Assets/sponsors/roll.png'),
-            link: 'https://rollstudio.co.uk/',
-        },
-    ],
-    [
-        {
-            id: 'pythonitalia',
-            name: 'Python Italia',
-            photo: require('Assets/sponsors/python-italia.png'),
-            link: 'https://pycon.it/',
-        },
-        {
-            id: 'psf',
-            name: 'Python Software Foundation',
-            photo: require('Assets/sponsors/psf.png'),
-            link: 'https://www.012factory.it/',
-        },
-        {
-            id: 'f012actory',
-            name: '012 Factory',
-            photo: require('Assets/sponsors/012factory.png'),
-            link: 'https://www.012factory.it/',
-        },
-    ],
-    [
-        {
-            id: 'sorbillo',
-            name: 'Sorbillo',
-            photo: require('Assets/sponsors/sorbillo.png'),
-            link: 'http://sorbillo.it',
-        },
-        {
-            id: 'jetbrains',
-            name: 'Jetbrains',
-            photo: require('Assets/sponsors/jetbrains.png'),
-            link: 'https://www.jetbrains.com/',
-        },
-        {
-            id: 'tattakki',
-            name: 'Tattakki',
-            photo: require('Assets/sponsors/tattakki.png'),
-            link: 'https://www.instagram.com/tattakki/',
-        },
-        {
-            id: 'notabug',
-            name: 'Not a bug Conf',
-            photo: require('Assets/sponsors/notabugconf.png'),
-            link: 'https://notabugconf.it/',
-        },
-    ],
+export const SPONSORS: SponsorGroup[] = [
+    {
+        tier: 'Gold',
+        sponsors: [
+            {
+                id: 'bit4id',
+                name: 'Bit4Id',
+                photo: require('Assets/sponsors/bit4id.png'),
+                link: 'http://www.bit4id.it/',
+            },
+            {
+                id: 'roll',
+                name: 'ROLL',
+                photo: require('Assets/sponsors/roll.png'),
+                link: 'https://rollstudio.co.uk/',
+            },
+        ],
+    },
+    {
+        tier: 'Silver',
+        sponsors: [
+            {
+                id: 'pythonitalia',
+                name: 'Python Italia',
+                photo: require('Assets/sponsors/python-italia.png'),
+                link: 'https://pycon.it/',
+            },
+            {
+                id: 'psf',
+                name: 'Python Software Foundation',
+                photo: require('Assets/sponsors/psf.png'),
+                link: 'https://www.012factory.it/',
+            },
+            {
+                id: 'f012actory',
+                name: '012 Factory',
+                photo: require('Assets/sponsors/012factory.png'),
+                link: 'https://www.012factory.it/',
+            },
+        ],
+    },
+    {
+        tier: 'Supporters',
+        sponsors: [
+            {
+                id: 'sorbillo',
+                name: 'Sorbillo',
+                photo: require('Assets/sponsors/sorbillo.png'),
+                link: 'http://sorbillo.it',
+            },
+            {
+                id: 'jetbrains',
+                name: 'Jetbrains',
+                photo: require('Assets/sponsors/jetbrains.png'),
+                link: 'https://www.jetbrains.com/',
+            },
+            {
+                id: 'tattakki',
+                name: 'Tattakki',
+                photo: require('Assets/sponsors/tattakki.png'),
+                link: 'https://www.instagram.com/tattakki/',
+            },
+            {
+                id: 'notabug',
+                name: 'Not a bug Conf',
+                photo: require('Assets/sponsors/notabugconf.png'),
+                link: 'https://notabugconf.it/',
+            },
+        ],
+    },
 ];
 
 export const SCHEDULE: Schedule[] = [

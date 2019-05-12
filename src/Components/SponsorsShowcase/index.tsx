@@ -1,10 +1,13 @@
 import * as React from 'react';
-import Sponsor from '@/Types/Sponsor';
+
+import SponsorGroup from '@/Types/SponsorGroup';
 
 import './index.css';
 
+import BeASponsor from './BeASponsor';
+
 export interface SponsorsShowcaseProps {
-    sponsors: Sponsor[][];
+    sponsors: SponsorGroup[];
 }
 
 export default class SponsorsShowcase extends React.Component<SponsorsShowcaseProps, {}> {
@@ -13,29 +16,28 @@ export default class SponsorsShowcase extends React.Component<SponsorsShowcasePr
 
         return (
             <div className="sponsors-showcase">
-                {sponsors.map((row, i) => {
+                {sponsors.map((group, i) => {
                     return (
-                        <div key={i} className="sponsors-showcase--row">
-                            {row.map(sponsor => (
-                                <a
-                                    className="sponsors-showcase--sponsor"
-                                    id={sponsor.id}
-                                    key={sponsor.name}
-                                    href={sponsor.link}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <img alt={sponsor.name} src={sponsor.photo} />
-                                </a>
-                            ))}
-                        </div>
+                        <React.Fragment>
+                            <h2 className="sponsors-showcase--tier">{group.tier}</h2>
+                            <div key={i} className="sponsors-showcase--row">
+                                {group.sponsors.map(sponsor => (
+                                    <a
+                                        className="sponsors-showcase--sponsor"
+                                        id={sponsor.id}
+                                        key={sponsor.name}
+                                        href={sponsor.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <img alt={sponsor.name} src={sponsor.photo} />
+                                    </a>
+                                ))}
+                                <BeASponsor />
+                            </div>
+                        </React.Fragment>
                     );
                 })}
-                {/*sponsors.map(sponsor => (
-                    <a id={sponsor.id} key={sponsor.name} href={sponsor.link} target="_blank" rel="noopener noreferrer" style={{ gridArea: sponsor.id }}>
-                        <img src={sponsor.photo} />
-                    </a>
-                ))*/}
             </div>
         );
     }
