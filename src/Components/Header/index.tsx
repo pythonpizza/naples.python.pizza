@@ -27,7 +27,7 @@ export default class Header extends React.Component {
         return (
             <div className="header">
                 <Container size={Sizes.large}>
-                    <SVGInline className="header--logo" svg={require('Assets/logo.svg')} />
+                    <SVGInline className="header--logo" svg={require('Assets/logo.svg').default} />
                     <ul className="header--links">
                         <li>
                             <a onClick={this.onNavClick} href="#about" data-destination="about">

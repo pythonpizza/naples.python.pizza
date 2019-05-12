@@ -3,11 +3,21 @@ const path = require('path');
 const root = path.resolve(__dirname);
 
 module.exports = {
-    outDir: 'build/',
+    entry: 'src/index.js',
+    output: {
+        dir: 'build/',
+        clean: true,
+        html: {
+            template: './index.html',
+        },
+    },
     plugins: [
-        require('@poi/plugin-typescript')({
-            vue: false,
-        }),
+        {
+            resolve: '@poi/plugin-typescript',
+            options: {
+                vue: false,
+            },
+        },
     ],
     configureWebpack(config, context) {
         config.resolve.extensions = [...config.resolve.extensions, '.tsx'];
@@ -21,6 +31,7 @@ module.exports = {
             }
 
             rule.use[0].loader = 'raw-loader';
+            rule.use[0].options = {};
         }
         return config;
     },

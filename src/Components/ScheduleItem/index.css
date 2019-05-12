@@ -69,7 +69,6 @@
             box-shadow: 2px 8px 32px -8px var(--iron);
 
             &::before {
-                // content: '🙅';
                 content: '💥';
                 font-size: 6.4rem;
             }
