@@ -18,6 +18,14 @@ module.exports = {
                 vue: false,
             },
         },
+        {
+            resolve: '@poi/plugin-offline',
+            options: {},
+        },
+        {
+            resolve: '@poi/plugin-pwa',
+            options: {},
+        },
     ],
     configureWebpack(config, context) {
         config.resolve.extensions = [...config.resolve.extensions, '.tsx'];

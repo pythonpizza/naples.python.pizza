@@ -8,6 +8,8 @@
         "build": "poi --prod"
     },
     "devDependencies": {
+        "@poi/plugin-offline": "^10.0.1",
+        "@poi/plugin-pwa": "^12.0.3",
         "@poi/plugin-typescript": "12.2.1",
         "@types/react": "16.8.17",
         "@types/react-dom": "16.8.4",
@@ -23,6 +25,7 @@
         "babel-preset-poi": "^10.0.2",
         "classnames": "^2.2.5",
         "eslint-plugin-typescript": "0.14.0",
+        "offline-plugin": "^5.0.7",
         "postcss-custom-media": "7.0.8",
         "postcss-nested": "4.1.2",
         "prettier": "^1.17.0",
@@ -30,6 +33,7 @@
         "react": "16.8.6",
         "react-dom": "16.8.6",
         "react-svg-inline": "2.1.1",
+        "register-service-worker": "^1.6.2",
         "smoothscroll-polyfill": "0.4.4",
         "tslint": "5.16.0",
         "typescript": "3.4.5",
