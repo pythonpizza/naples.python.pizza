@@ -1,0 +1,15 @@
+.be-a-sponsor {
+    width: 17rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #ccc;
+
+    transition: border-color 0.3s;
+
+    &:hover {
+        border-style: solid;
+        border-color: #646f79;
+    }
+}

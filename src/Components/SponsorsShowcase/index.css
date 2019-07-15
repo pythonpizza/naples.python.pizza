@@ -22,6 +22,12 @@
         }
     }
 
+    &--tier {
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
     &--row {
         display: grid;
         align-items: center;
@@ -29,25 +35,23 @@
 
         align-items: center;
         justify-items: center;
-
-        margin: 2rem 0;
     }
 
     @media (--tablet) {
         &--row {
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(4, 1fr);
 
-            &:first-child {
+            &:first-of-type {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            &:last-of-type {
                 grid-template-columns: repeat(4, 1fr);
             }
 
-            &:last-child {
-                grid-template-columns: repeat(4, 1fr);
-            }
-
-            #bit4id {
+            /*#bit4id {
                 grid-column-start: 2;
-            }
+            }*/
         }
     }
 }

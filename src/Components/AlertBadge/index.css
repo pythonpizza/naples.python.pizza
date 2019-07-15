@@ -1,0 +1,22 @@
+.alert-badge {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+
+    padding: 2.5rem 1.5rem;
+    font-size: 1.6rem;
+    z-index: 10;
+    border-radius: 0.4rem;
+
+    background: #202124;
+    color: var(--white);
+
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform .2s ease-in-out, opacity .2s ease-in-out;
+
+    &.visible {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

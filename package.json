@@ -1,37 +1,42 @@
 {
     "name": "python.pizza",
-    "version": "2018",
+    "version": "2019",
     "main": "src/index.js",
     "license": "MIT",
     "scripts": {
-        "dev": "./node_modules/.bin/poi develop",
-        "build": "./node_modules/.bin/poi build"
+        "dev": "poi --serve",
+        "build": "poi --prod"
     },
     "devDependencies": {
-        "@poi/plugin-typescript": "10.2.0",
-        "@types/react": "16.3.18",
-        "@types/react-dom": "16.0.6",
-        "eslint": "^4.5.0",
-        "eslint-config-synacor": "^1.1.0",
+        "@poi/plugin-offline": "^10.0.1",
+        "@poi/plugin-pwa": "^12.0.3",
+        "@poi/plugin-typescript": "12.2.1",
+        "@types/react": "16.8.17",
+        "@types/react-dom": "16.8.4",
+        "eslint": "^5.16.0",
+        "eslint-config-synacor": "^3.0.4",
         "if-env": "^1.0.0",
-        "poi": "10.2.9",
-        "react-hot-loader": "4.3.3"
+        "poi": "12.6.8",
+        "react-hot-loader": "4.8.4"
     },
     "dependencies": {
-        "@types/classnames": "^2.2.6",
-        "@types/smoothscroll-polyfill": "0.3.0",
+        "@types/classnames": "^2.2.7",
+        "@types/smoothscroll-polyfill": "0.3.1",
+        "babel-preset-poi": "^10.0.2",
         "classnames": "^2.2.5",
-        "eslint-plugin-typescript": "0.12.0",
-        "postcss-custom-media": "6.0.0",
-        "postcss-nested": "3.0.0",
-        "prettier": "^1.6.0",
-        "raw-loader": "0.5.1",
-        "react": "16.4.1",
-        "react-dom": "16.4.1",
+        "eslint-plugin-typescript": "0.14.0",
+        "offline-plugin": "^5.0.7",
+        "postcss-custom-media": "7.0.8",
+        "postcss-nested": "4.1.2",
+        "prettier": "^1.17.0",
+        "raw-loader": "2.0.0",
+        "react": "16.8.6",
+        "react-dom": "16.8.6",
         "react-svg-inline": "2.1.1",
-        "smoothscroll-polyfill": "0.4.3",
-        "tslint": "5.10.0",
-        "typescript": "2.9.2",
-        "typescript-eslint-parser": "16.0.0"
+        "register-service-worker": "^1.6.2",
+        "smoothscroll-polyfill": "0.4.4",
+        "tslint": "5.16.0",
+        "typescript": "3.4.5",
+        "typescript-eslint-parser": "22.0.0"
     }
 }

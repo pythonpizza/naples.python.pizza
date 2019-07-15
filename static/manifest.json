@@ -1,0 +1,15 @@
+{
+    "name": "Python Pizza",
+    "themeColor": "#ed4337",
+    "msTileColor": "#000000",
+    "appleMobileWebAppCapable": "no",
+    "appleMobileWebAppStatusBarStyle": "default",
+    "assetsVersion": "",
+    "iconPaths": {
+        "favicon16": "/favicon-16x16.png",
+        "favicon32": "/favicon-32x32.png",
+        "appleTouchIcon": "/apple-touch-icon.png",
+        "safariMaskIcon": "/safari-pinned-tab.svg",
+        "msTileImage": "/mstile-150x150.png"
+    }
+}
